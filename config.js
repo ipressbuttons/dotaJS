@@ -1,16 +1,21 @@
-define({
-    language: "english",
-    files: {
-        stringmap: 'dotaJS/bin/data/stringmap',
-        translations: {
-            english: 'dotaJS/bin/translations/dota_english',
-            german: 'dotaJS/bin/translations/dota_german',
-        },
-        data: {
-            abilities: 'dotaJS/bin/data/npc_abilities',
-            heroes: 'dotaJS/bin/data/npc_heroes',
-            items: 'dotaJS/bin/data/items',
-            units: 'dotaJS/bin/data/npc_units',
+define(function(require, exports, module) {
+    var $ = require('jquery');
+    var config = {
+        language: "english",
+        files: {
+            stringmap: 'dotaJS/bin/data/stringmap',
+            translations: {
+                english: 'dotaJS/bin/translations/dota_english',
+                german: 'dotaJS/bin/translations/dota_german',
+            },
+            data: {
+                abilities: 'dotaJS/bin/data/npc_abilities',
+                heroes: 'dotaJS/bin/data/npc_heroes',
+                items: 'dotaJS/bin/data/items',
+                units: 'dotaJS/bin/data/npc_units',
+            }
         }
-    }
+    };
+    $.extend(true, config, module.config());
+    return config;
 });

@@ -118,7 +118,7 @@ define({"DOTAHeroes": {
         "AttributeIntelligenceGain": "1.8",
         "AttributeBaseAgility": "22",
         "AttributeAgilityGain": "2.8",
-        "MovementSpeed": "320",
+        "MovementSpeed": "315",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "140",
@@ -138,8 +138,8 @@ define({"DOTAHeroes": {
             },
             "2": {
                 "SlotIndex": "2",
-                "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotName": "armor",
+                "SlotText": "#LoadoutSlot_Armor"
             },
             "3": {
                 "SlotIndex": "3",
@@ -841,20 +841,7 @@ define({"DOTAHeroes": {
         "ParticleFile": "particles/units/heroes/hero_drow.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_drowranger.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_drowranger.txt",
-        "RenderablePortrait": {"Particles": {"drow_bowstring": {
-            "0": {
-                "type": "follow_attachment",
-                "location": "bow_bot"
-            },
-            "1": {
-                "type": "follow_attachment",
-                "location": "bow_mid"
-            },
-            "2": {
-                "type": "follow_attachment",
-                "location": "bow_top"
-            }
-        }}},
+        "RenderablePortrait": {},
         "Bot": {
             "Loadout": {
                 "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
@@ -863,8 +850,8 @@ define({"DOTAHeroes": {
                 "item_recipe_wraith_band": "ITEM_EXTENSION",
                 "item_wraith_band": "ITEM_DERIVED | ITEM_SELLABLE",
                 "item_boots": "ITEM_CORE",
+                "item_shadow_amulet": "ITEM_CORE",
                 "item_claymore": "ITEM_EXTENSION",
-                "item_recipe_invis_sword": "ITEM_EXTENSION",
                 "item_invis_sword": "ITEM_DERIVED",
                 "item_blade_of_alacrity": "ITEM_CORE",
                 "item_boots_of_elves": "ITEM_EXTENSION",
@@ -1118,7 +1105,7 @@ define({"DOTAHeroes": {
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
         "AttackDamageMin": "24",
         "AttackDamageMax": "28",
-        "AttackRate": "1.7",
+        "AttackRate": "1.6",
         "AttackAnimationPoint": "0.33",
         "AttackAcquisitionRange": "600",
         "AttackRange": "128",
@@ -1461,9 +1448,8 @@ define({"DOTAHeroes": {
                 "item_wraith_band": "ITEM_DERIVED | ITEM_SELLABLE",
                 "item_bottle": "ITEM_CORE | ITEM_SELLABLE",
                 "item_boots": "ITEM_CORE",
-                "item_quarterstaff": "ITEM_EXTENSION",
+                "item_shadow_amulet": "ITEM_EXTENSION",
                 "item_claymore": "ITEM_EXTENSION",
-                "item_recipe_invis_sword": "ITEM_EXTENSION",
                 "item_invis_sword": "ITEM_DERIVED",
                 "item_ogre_axe": "ITEM_EXTENSION",
                 "item_recipe_black_king_bar": "ITEM_EXTENSION",
@@ -1548,8 +1534,8 @@ define({"DOTAHeroes": {
         "Ability8": "attribute_bonus",
         "ArmorPhysical": "-2",
         "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-        "AttackDamageMin": "19",
-        "AttackDamageMax": "28",
+        "AttackDamageMin": "13",
+        "AttackDamageMax": "22",
         "AttackRate": "1.7",
         "AttackAnimationPoint": "0.5",
         "AttackAcquisitionRange": "800",
@@ -1736,7 +1722,7 @@ define({"DOTAHeroes": {
         "AttributeBaseIntelligence": "21",
         "AttributeIntelligenceGain": "2.0",
         "AttributeBaseAgility": "23",
-        "AttributeAgilityGain": "2.8",
+        "AttributeAgilityGain": "4.2",
         "StatusHealthRegen": "0.75",
         "MovementSpeed": "290",
         "MovementTurnRate": "0.6",
@@ -2500,8 +2486,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Head",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "750",
+                "MaxPolygonsLOD1": "450"
             },
             "1": {
                 "SlotIndex": "1",
@@ -2509,8 +2495,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Armor",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "350"
             },
             "2": {
                 "SlotIndex": "2",
@@ -2518,8 +2504,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Belt",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "450"
             },
             "3": {
                 "SlotIndex": "3",
@@ -2527,8 +2513,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Arms",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "450"
             },
             "4": {
                 "SlotIndex": "4",
@@ -2536,8 +2522,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Neck",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "250"
             },
             "5": {
                 "SlotIndex": "5",
@@ -2545,8 +2531,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Misc",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "130",
-                "MaxPolygonsLOD1": "130"
+                "MaxPolygonsLOD0": "150",
+                "MaxPolygonsLOD1": "150"
             },
             "6": {
                 "SlotIndex": "6",
@@ -2969,7 +2955,7 @@ define({"DOTAHeroes": {
         "AttributeBaseIntelligence": "15",
         "AttributeIntelligenceGain": "1.75",
         "AttributeBaseAgility": "27",
-        "AttributeAgilityGain": "2.35",
+        "AttributeAgilityGain": "2.8",
         "ArmorPhysical": "0",
         "MovementSpeed": "295",
         "MovementTurnRate": "0.6",
@@ -3379,7 +3365,7 @@ define({"DOTAHeroes": {
         "AttackAcquisitionRange": "600",
         "AttackRange": "128",
         "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-        "AttributeBaseStrength": "21",
+        "AttributeBaseStrength": "24",
         "AttributeStrengthGain": "3",
         "AttributeBaseIntelligence": "18",
         "AttributeIntelligenceGain": "1.5",
@@ -3606,20 +3592,41 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "800",
+                "MaxPolygonsLOD1": "700"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "neck",
-                "SlotText": "#LoadoutSlot_Nead"
+                "SlotText": "#LoadoutSlot_Neck",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "300"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "400"
             },
             "3": {
                 "SlotIndex": "3",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "700",
+                "MaxPolygonsLOD1": "600"
+            },
+            "4": {
+                "SlotIndex": "4",
                 "SlotName": "taunt",
                 "SlotText": "#LoadoutSlot_Taunt"
             }
@@ -3750,6 +3757,48 @@ define({"DOTAHeroes": {
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "225",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "neck",
+                "SlotText": "#LoadoutSlot_Neck",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "taunt",
+                "SlotText": "#LoadoutSlot_Taunt"
+            }
+        },
         "VoiceFile": "scripts/voscripts/game_sounds_vo_lich.txt",
         "ParticleFile": "particles/units/heroes/hero_lich.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_lich.txt",
@@ -4692,7 +4741,7 @@ define({"DOTAHeroes": {
         "Rolelevels": "2,1",
         "Team": "Good",
         "HeroID": "32",
-        "ModelScale": "0.79",
+        "ModelScale": "0.87",
         "HeroGlowColor": "170 112 194",
         "CMEnabled": "1",
         "PickSound": "riki_riki_spawn_02",
@@ -4729,47 +4778,56 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Weapon",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "600",
-                "MaxPolygonsLOD1": "400"
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "350"
             },
             "1": {
                 "SlotIndex": "1",
-                "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head",
+                "SlotName": "offhand_weapon",
+                "SlotText": "#LoadoutSlot_Offhand_Weapon",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "600",
-                "MaxPolygonsLOD1": "400"
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "350"
             },
             "2": {
                 "SlotIndex": "2",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "550",
+                "MaxPolygonsLOD1": "350"
+            },
+            "3": {
+                "SlotIndex": "3",
                 "SlotName": "shoulder",
                 "SlotText": "#LoadoutSlot_Shoulder",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "600",
-                "MaxPolygonsLOD1": "400"
+                "MaxPolygonsLOD0": "250",
+                "MaxPolygonsLOD1": "200"
             },
-            "3": {
-                "SlotIndex": "3",
+            "4": {
+                "SlotIndex": "4",
                 "SlotName": "arms",
                 "SlotText": "#LoadoutSlot_Arms",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "600",
-                "MaxPolygonsLOD1": "400"
-            },
-            "4": {
-                "SlotIndex": "4",
-                "SlotName": "back",
-                "SlotText": "#LoadoutSlot_Back",
-                "TextureWidth": "256",
-                "TextureHeight": "128",
-                "MaxPolygonsLOD0": "600",
-                "MaxPolygonsLOD1": "400"
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "300"
             },
             "5": {
                 "SlotIndex": "5",
+                "SlotName": "tail",
+                "SlotText": "#LoadoutSlot_Tail",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "350"
+            },
+            "6": {
+                "SlotIndex": "6",
                 "SlotName": "taunt",
                 "SlotText": "#LoadoutSlot_Taunt"
             }
@@ -4939,9 +4997,8 @@ define({"DOTAHeroes": {
                 "item_void_stone": "ITEM_LUXURY",
                 "item_mystic_staff": "ITEM_LUXURY",
                 "item_sheepstick": "ITEM_DERIVED",
-                "item_quarterstaff": "ITEM_LUXURY",
+                "item_shadow_amulet": "ITEM_LUXURY",
                 "item_claymore": "ITEM_LUXURY",
-                "item_recipe_invis_sword": "ITEM_LUXURY",
                 "item_invis_sword": "ITEM_DERIVED",
                 "item_vitality_booster": "ITEM_LUXURY",
                 "item_reaver": "ITEM_LUXURY",
@@ -5231,8 +5288,7 @@ define({"DOTAHeroes": {
                 "item_gloves": "ITEM_CORE",
                 "item_power_treads": "ITEM_DERIVED",
                 "item_claymore": "ITEM_EXTENSION",
-                "item_quarterstaff": "ITEM_EXTENSION",
-                "item_recipe_invis_sword": "ITEM_EXTENSION",
+                "item_shadow_amulet": "ITEM_EXTENSION",
                 "item_invis_sword": "ITEM_DERIVED",
                 "item_recipe_desolator": "ITEM_EXTENSION",
                 "item_desolator": "ITEM_DERIVED",
@@ -5423,8 +5479,7 @@ define({"DOTAHeroes": {
                 "item_treads": "ITEM_DERIVED",
                 "item_sobi_mask": "ITEM_EXTENSION",
                 "item_claymore": "ITEM_EXTENSION",
-                "item_quarterstaff": "ITEM_EXTENSION",
-                "item_recipe_invis_sword": "ITEM_EXTENSION",
+                "item_shadow_amulet": "ITEM_EXTENSION",
                 "item_invis_sword": "ITEM_DERIVED",
                 "item_mithril_hammer": "ITEM_EXTENSION",
                 "item_recipe_desolator": "ITEM_EXTENSION",
@@ -5710,27 +5765,70 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "600",
+                "MaxPolygonsLOD1": "450"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "900",
+                "MaxPolygonsLOD1": "500"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "300"
             },
             "3": {
                 "SlotIndex": "3",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "550",
+                "MaxPolygonsLOD1": "350"
             },
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "belt",
-                "SlotText": "#LoadoutSlot_Belt"
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "350"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "ability2",
+                "SlotText": "#LoadoutSlot_Ability2",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1000",
+                "MaxPolygonsLOD1": "1000"
+            },
+            "6": {
+                "SlotIndex": "6",
+                "SlotName": "summon",
+                "SlotText": "#LoadoutSlot_Summon",
+                "TextureWidth": "512",
+                "TextureHeight": "512",
+                "MaxPolygonsLOD0": "4000",
+                "MaxPolygonsLOD1": "2000"
+            },
+            "7": {
+                "SlotIndex": "7",
+                "SlotName": "taunt",
+                "SlotText": "#LoadoutSlot_Taunt"
             }
         },
         "ParticleFile": "particles/units/heroes/hero_beastmaster.pcf",
@@ -6386,42 +6484,6 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "AutoPurchase": {
-                "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
-                "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
-                "item_clarity": "ITEM_CONSUMABLE | ITEM_SELLABLE",
-                "item_quelling_blade": "ITEM_CORE | ITEM_SELLABLE",
-                "item_boots": "ITEM_CORE",
-                "item_magic_stick": "ITEM_CORE",
-                "item_branches": "ITEM_CORE",
-                "item_recipe_magic_wand": "ITEM_CORE",
-                "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
-                "item_treads": "ITEM_DERIVED",
-                "item_helm_of_iron_will": "ITEM_CORE",
-                "item_gloves": "ITEM_CORE",
-                "item_blades_of_attack": "ITEM_CORE",
-                "item_recipe_armlet": "ITEM_CORE",
-                "item_armlet": "ITEM_DERIVED",
-                "item_reaver": "ITEM_EXTENSION",
-                "item_vitality_booster": "ITEM_EXTENSION",
-                "item_recipe_heart": "ITEM_EXTENSION",
-                "item_heart": "ITEM_DERIVED",
-                "item_ogre_axe": "ITEM_EXTENSION",
-                "item_mithril_hammer": "ITEM_EXTENSION",
-                "item_recipe_black_king_bar": "ITEM_EXTENSION",
-                "item_black_king_bar": "ITEM_DERIVED",
-                "item_platemail": "ITEM_LUXURY",
-                "item_hyperstone": "ITEM_LUXURY",
-                "item_chainmail": "ITEM_LUXURY",
-                "item_recipe_assault": "ITEM_LUXURY",
-                "item_assault": "ITEM_DERIVED",
-                "item_belt_of_strength": "ITEM_LUXURY",
-                "item_javelin": "ITEM_LUXURY",
-                "item_recipe_basher": "ITEM_LUXURY",
-                "item_basher": "ITEM_DERIVED",
-                "item_relic": "ITEM_LUXURY",
-                "item_abyssal_blade": "ITEM_DERIVED"
-            },
             "Loadout": {
                 "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
                 "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
@@ -6433,6 +6495,10 @@ define({"DOTAHeroes": {
                 "item_recipe_magic_wand": "ITEM_CORE",
                 "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
                 "item_treads": "ITEM_DERIVED",
+                "item_ring_of_regen": "ITEM_CORE",
+                "item_sobi_mask": "ITEM_CORE",
+                "item_recipe_soul_ring": "ITEM_CORE",
+                "item_soul_ring": "ITEM_DERIVED | ITEM_SELLABLE",
                 "item_helm_of_iron_will": "ITEM_CORE",
                 "item_gloves": "ITEM_CORE",
                 "item_blades_of_attack": "ITEM_CORE",
@@ -6520,7 +6586,7 @@ define({"DOTAHeroes": {
         "Ability2": "death_prophet_silence",
         "Ability3": "death_prophet_witchcraft",
         "Ability4": "death_prophet_exorcism",
-        "ArmorPhysical": "0",
+        "ArmorPhysical": "1",
         "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
         "AttackDamageMin": "24",
         "AttackDamageMax": "36",
@@ -6885,7 +6951,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "1.0",
         "AttributeBaseIntelligence": "26",
         "AttributeIntelligenceGain": "4.0",
-        "MovementSpeed": "315",
+        "MovementSpeed": "320",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "140",
@@ -7372,7 +7438,7 @@ define({"DOTAHeroes": {
         "Ability2": "dragon_knight_dragon_tail",
         "Ability3": "dragon_knight_dragon_blood",
         "Ability4": "dragon_knight_elder_dragon_form",
-        "ArmorPhysical": "2",
+        "ArmorPhysical": "1",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
         "AttackDamageMin": "27",
         "AttackDamageMax": "33",
@@ -7410,29 +7476,29 @@ define({"DOTAHeroes": {
                 "item_circlet": "ITEM_CORE",
                 "item_recipe_bracer": "ITEM_CORE",
                 "item_bracer": "ITEM_DERIVED | ITEM_SELLABLE",
-                "item_gloves": "ITEM_EXTENSION",
+                "item_belt_of_strength": "ITEM_EXTENSION",
                 "item_treads": "ITEM_DERIVED",
-                "item_lifesteal": "ITEM_CORE",
-                "item_helm_of_iron_will": "ITEM_CORE",
-                "item_helm_of_the_dominator": "ITEM_DERIVED | ITEM_SELLABLE",
+                "item_robe": "ITEM_EXTENSION",
+                "item_recipe_ancient_janggo": "ITEM_EXTENSION",
+                "item_ancient_janggo": "ITEM_DERIVED | ITEM_SELLABLE",
+                "item_gloves": "ITEM_EXTENSION",
+                "item_recipe_maelstrom": "ITEM_EXTENSION",
+                "item_maelstrom": "ITEM_DERIVED",
                 "item_mithril_hammer": "ITEM_EXTENSION",
+                "item_ogre_axe": "ITEM_EXTENSION",
                 "item_recipe_black_king_bar": "ITEM_EXTENSION",
                 "item_black_king_bar": "ITEM_DERIVED",
-                "item_ogre_axe": "ITEM_EXTENSION",
-                "item_belt_of_strength": "ITEM_EXTENSION",
-                "item_recipe_sange": "ITEM_EXTENSION",
-                "item_sange": "ITEM_DERIVED",
-                "item_talisman_of_evasion": "ITEM_EXTENSION",
-                "item_heavens_halberd": "ITEM_DERIVED",
+                "item_platemail": "ITEM_EXTENSION",
+                "item_chainmail": "ITEM_EXTENSION",
+                "item_recipe_assault": "ITEM_EXTENSION",
+                "item_assault": "ITEM_DERIVED",
+                "item_hyperstone": "ITEM_LUXURY",
+                "item_recipe_mjollnir": "ITEM_LUXURY",
+                "item_mjollnir": "ITEM_DERIVED",
                 "item_reaver": "ITEM_LUXURY",
                 "item_vitality_booster": "ITEM_LUXURY",
                 "item_recipe_heart": "ITEM_LUXURY",
-                "item_heart": "ITEM_DERIVED",
-                "item_platemail": "ITEM_EXTENSION",
-                "item_hyperstone": "ITEM_EXTENSION",
-                "item_chainmail": "ITEM_EXTENSION",
-                "item_recipe_assault": "ITEM_EXTENSION",
-                "item_assault": "ITEM_DERIVED"
+                "item_heart": "ITEM_DERIVED"
             },
             "Build": {
                 "1": "dragon_knight_dragon_tail",
@@ -7732,7 +7798,7 @@ define({"DOTAHeroes": {
         "ProjectileSpeed": "",
         "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
         "AttributeBaseStrength": "24",
-        "AttributeStrengthGain": "2.4",
+        "AttributeStrengthGain": "2.7",
         "AttributeBaseAgility": "13",
         "AttributeAgilityGain": "1.2",
         "AttributeBaseIntelligence": "17",
@@ -7883,7 +7949,7 @@ define({"DOTAHeroes": {
         "AttributeIntelligenceGain": "2.9",
         "AttributeBaseAgility": "18",
         "AttributeAgilityGain": "1.9",
-        "MovementSpeed": "300",
+        "MovementSpeed": "295",
         "MovementTurnRate": "0.6",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "180",
@@ -8129,7 +8195,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "1.2",
         "AttributeBaseIntelligence": "29",
         "AttributeIntelligenceGain": "2.7",
-        "MovementSpeed": "305",
+        "MovementSpeed": "300",
         "MovementTurnRate": "0.6",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "130",
@@ -8438,27 +8504,47 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "700",
+                "MaxPolygonsLOD1": "350"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1400",
+                "MaxPolygonsLOD1": "700"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "belt",
-                "SlotText": "#LoadoutSlot_Belt"
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "350"
             },
             "3": {
                 "SlotIndex": "3",
                 "SlotName": "neck",
-                "SlotText": "#LoadoutSlot_Neck"
+                "SlotText": "#LoadoutSlot_Neck",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "200",
+                "MaxPolygonsLOD1": "150"
             },
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "200"
             },
             "5": {
                 "SlotIndex": "5",
@@ -9243,13 +9329,13 @@ define({"DOTAHeroes": {
         "ProjectileSpeed": "900",
         "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
         "AttributeBaseStrength": "23",
-        "AttributeStrengthGain": "2.0",
+        "AttributeStrengthGain": "2.7",
         "AttributeBaseAgility": "15",
         "AttributeAgilityGain": "1.5",
         "AttributeBaseIntelligence": "24",
         "AttributeIntelligenceGain": "2.5",
         "MovementSpeed": "290",
-        "MovementTurnRate": "0.4",
+        "MovementTurnRate": "1.0",
         "ItemSlots": {
             "0": {
                 "SlotIndex": "0",
@@ -9350,10 +9436,13 @@ define({"DOTAHeroes": {
         "BanSound": "chen_chen_anger_04",
         "CMEnabled": "1",
         "url": "Chen",
+        "AbilityLayout": "5",
         "Ability1": "chen_penitence",
         "Ability2": "chen_test_of_faith",
-        "Ability3": "chen_holy_persuasion",
-        "Ability4": "chen_hand_of_god",
+        "Ability3": "chen_test_of_faith_teleport",
+        "Ability4": "chen_holy_persuasion",
+        "Ability5": "chen_hand_of_god",
+        "Ability6": "attribute_bonus",
         "ArmorPhysical": "-1",
         "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
         "AttackDamageMin": "22",
@@ -9578,6 +9667,44 @@ define({"DOTAHeroes": {
                 "location": "attach_hitloc"
             }
         }}},
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "700",
+                "MaxPolygonsLOD1": "550"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "512",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "2000",
+                "MaxPolygonsLOD1": "1250"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1100",
+                "MaxPolygonsLOD1": "800"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "misc",
+                "SlotText": "#LoadoutSlot_Misc",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "300"
+            }
+        },
         "Bot": {
             "Loadout": {
                 "item_quelling_blade": "ITEM_CORE | ITEM_SELLABLE",
@@ -10117,14 +10244,14 @@ define({"DOTAHeroes": {
         "Ability5": "attribute_bonus",
         "ArmorPhysical": "3.0",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-        "AttackDamageMin": "22",
-        "AttackDamageMax": "32",
+        "AttackDamageMin": "31",
+        "AttackDamageMax": "41",
         "AttackRate": "1.7",
         "AttackAnimationPoint": "0.6",
         "AttackAcquisitionRange": "600",
         "AttackRange": "128",
         "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
-        "AttributeBaseStrength": "23",
+        "AttributeBaseStrength": "29",
         "AttributeStrengthGain": "2.4",
         "AttributeBaseAgility": "17",
         "AttributeAgilityGain": "1.7",
@@ -10322,7 +10449,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "2.8",
         "AttributeBaseIntelligence": "23",
         "AttributeIntelligenceGain": "2.1",
-        "MovementSpeed": "305",
+        "MovementSpeed": "315",
         "MovementTurnRate": "0.6",
         "HealthBarOffset": "240",
         "precache": {"model": "models/heroes/gyro/gyro_missile.mdl"},
@@ -10601,8 +10728,8 @@ define({"DOTAHeroes": {
         "Ability16": "invoker_deafening_blast",
         "ArmorPhysical": "-1",
         "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-        "AttackDamageMin": "17",
-        "AttackDamageMax": "23",
+        "AttackDamageMin": "13",
+        "AttackDamageMax": "19",
         "AttackRate": "1.7",
         "AttackAnimationPoint": "0.4",
         "AttackAcquisitionRange": "800",
@@ -10726,7 +10853,7 @@ define({"DOTAHeroes": {
         "ProjectileSpeed": "1000",
         "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
         "AttributeBaseStrength": "17",
-        "AttributeStrengthGain": "1.7",
+        "AttributeStrengthGain": "2.2",
         "AttributeBaseAgility": "16",
         "AttributeAgilityGain": "2.1",
         "AttributeBaseIntelligence": "21",
@@ -11881,9 +12008,9 @@ define({"DOTAHeroes": {
         "Ability5": "attribute_bonus",
         "ArmorPhysical": "-1",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-        "AttackDamageMin": "34",
-        "AttackDamageMax": "42",
-        "AttackRate": "1.7",
+        "AttackDamageMin": "46",
+        "AttackDamageMax": "54",
+        "AttackRate": "1.9",
         "AttackAnimationPoint": "0.6",
         "AttackAcquisitionRange": "600",
         "AttackRange": "128",
@@ -11974,7 +12101,7 @@ define({"DOTAHeroes": {
         "Ability4": "ogre_magi_unrefined_fireblast",
         "Ability5": "ogre_magi_multicast",
         "Ability6": "attribute_bonus",
-        "ArmorPhysical": "2.96",
+        "ArmorPhysical": "3.96",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
         "AttackDamageMin": "41",
         "AttackDamageMax": "47",
@@ -12175,7 +12302,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "1.6",
         "AttributeBaseIntelligence": "27",
         "AttributeIntelligenceGain": "2.4",
-        "MovementSpeed": "300",
+        "MovementSpeed": "290",
         "MovementTurnRate": "0.5",
         "ParticleFile": "particles/units/heroes/hero_rubick.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_rubick.txt",
@@ -12383,6 +12510,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "2.2",
         "AttributeBaseIntelligence": "18",
         "AttributeIntelligenceGain": "2.1",
+        "StatusHealthRegen": "2.5",
         "MovementSpeed": "300",
         "MovementTurnRate": "0.5",
         "HealthBarOffset": "200",
@@ -12467,8 +12595,8 @@ define({"DOTAHeroes": {
         "Ability6": "attribute_bonus",
         "ArmorPhysical": "3",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-        "AttackDamageMin": "35",
-        "AttackDamageMax": "37",
+        "AttackDamageMin": "23",
+        "AttackDamageMax": "25",
         "AttackRate": "1.7",
         "AttackAnimationPoint": "0.5",
         "AttackAcquisitionRange": "600",
@@ -12614,7 +12742,7 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Weapon",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "770",
+                "MaxPolygonsLOD0": "750",
                 "MaxPolygonsLOD1": "400"
             },
             "1": {
@@ -12624,7 +12752,7 @@ define({"DOTAHeroes": {
                 "TextureWidth": "256",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "800",
-                "MaxPolygonsLOD1": "400"
+                "MaxPolygonsLOD1": "450"
             },
             "2": {
                 "SlotIndex": "2",
@@ -12633,7 +12761,7 @@ define({"DOTAHeroes": {
                 "TextureWidth": "256",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "250",
-                "MaxPolygonsLOD1": "250"
+                "MaxPolygonsLOD1": "200"
             },
             "3": {
                 "SlotIndex": "3",
@@ -12641,17 +12769,22 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Mount",
                 "TextureWidth": "512",
                 "TextureHeight": "512",
-                "MaxPolygonsLOD0": "2000",
+                "MaxPolygonsLOD0": "1800",
                 "MaxPolygonsLOD1": "1250"
             },
             "4": {
                 "SlotIndex": "4",
-                "SlotName": "misc",
-                "SlotText": "#LoadoutSlot_Misc",
+                "SlotName": "armor",
+                "SlotText": "#LoadoutSlot_Armor",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "1400",
-                "MaxPolygonsLOD1": "500"
+                "MaxPolygonsLOD1": "700"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "taunt",
+                "SlotText": "#LoadoutSlot_Taunt"
             }
         },
         "Bot": {
@@ -12781,7 +12914,7 @@ define({"DOTAHeroes": {
         "AttributeStrengthGain": "2.4",
         "AttributeBaseAgility": "11",
         "AttributeAgilityGain": "1.3",
-        "AttributeBaseIntelligence": "21",
+        "AttributeBaseIntelligence": "24",
         "AttributeIntelligenceGain": "2.5",
         "MovementSpeed": "295",
         "MovementTurnRate": "0.5",
@@ -12953,7 +13086,7 @@ define({"DOTAHeroes": {
         "HeroUnlockOrder": "0",
         "Role": "Carry",
         "Rolelevels": "3",
-        "Team": "Bad",
+        "Team": "Good",
         "Portrait": "vgui/hud/heroportraits/portrait_troll_warlord",
         "ModelScale": "1.0",
         "NameAliases": "troll,jahrakal",
@@ -13044,11 +13177,13 @@ define({"DOTAHeroes": {
         "HeroUnlockOrder": "0",
         "Role": "Carry",
         "Rolelevels": "3",
-        "Team": "Good",
+        "Team": "Bad",
         "Portrait": "vgui/hud/heroportraits/portrait_centaur",
         "ModelScale": "1.0",
         "NameAliases": "magnataur, magnus",
-        "url": "Magnataur",
+        "url": "Magnus",
+        "PickSound": "magnataur_magn_spawn_06",
+        "BanSound": "magnataur_magn_anger_07",
         "Ability1": "magnataur_shockwave",
         "Ability2": "magnataur_empower",
         "Ability3": "magnataur_skewer",
@@ -13068,9 +13203,56 @@ define({"DOTAHeroes": {
         "AttributeBaseIntelligence": "17",
         "AttributeIntelligenceGain": "1.65",
         "AttributeBaseAgility": "15",
-        "AttributeAgilityGain": "1.8",
+        "AttributeAgilityGain": "2.5",
         "VisionDaytimeRange": "1800",
         "VisionNighttimeRange": "800",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "350"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "misc",
+                "SlotText": "#LoadoutSlot_Misc",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "300"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "250"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "400"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "300"
+            }
+        },
         "MovementSpeed": "315",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",

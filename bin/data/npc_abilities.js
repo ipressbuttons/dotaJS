@@ -68,7 +68,7 @@ define({"DOTAAbilities": {
         "ID": "5004",
         "AbilityName": "antimage_blink",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
-        "AbilityCastPoint": "0.33 0.33 0.33 0.33",
+        "AbilityCastPoint": "0.4 0.4 0.4 0.4",
         "AbilityCooldown": "12.0 9.0 7.0 5.0",
         "AbilityManaCost": "60 60 60 60",
         "AbilitySpecial": {
@@ -135,7 +135,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_armor": "30 30 30 30"
+                "bonus_armor": "40"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
@@ -164,11 +164,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "slow": "-10"
+                "slow": "-8"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "speed_bonus": "4"
+                "speed_bonus": "8"
             }
         }
     },
@@ -178,7 +178,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "AbilityCooldown": "0.65 0.6 0.55 0.50",
-        "AbilityDamage": "100 130 160 190",
+        "AbilityDamage": "100 135 170 205",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -248,7 +248,7 @@ define({"DOTAAbilities": {
         "AbilityManaCost": "95 105 115 125",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "enfeeble_attack_reduction": "-25 -50 -75 -100"
+            "enfeeble_attack_reduction": "-30 -60 -90 -120"
         }}
     },
     "bane_brain_sap": {
@@ -302,7 +302,7 @@ define({"DOTAAbilities": {
             },
             "06": {
                 "var_type": "FIELD_FLOAT",
-                "fiend_grip_duration_scepter": "6.0 6.0 6.0"
+                "fiend_grip_duration_scepter": "7.0 7.0 7.0"
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
@@ -365,7 +365,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "damage_increase_pct": "20 40 60 80"
+                "damage_increase_pct": "30 60 90 120"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
@@ -392,7 +392,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "damage_assist_aoe": "225"
+                "damage_assist_aoe": "325"
             }
         }
     },
@@ -403,19 +403,19 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "1500 3000 4500 6000"
+                "radius": "6000 6000 6000 6000"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "visibility_threshold_pct": "40"
+                "visibility_threshold_pct": "20 30 40 50"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement_speed": "11 22 33 44"
+                "bonus_movement_speed": "15 25 35 45"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "invis_threshold_pct": "20"
+                "invis_threshold_pct": "10 15 20 25"
             }
         }
     },
@@ -472,7 +472,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "frost_arrows_movement_speed": "-11 -24 -37 -50"
+                "frost_arrows_movement_speed": "-11 -24 -37 -60"
             }
         }
     },
@@ -482,7 +482,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityCastRange": "900",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
-        "AbilityCooldown": "15.0 15.0 15.0 15.0",
+        "AbilityCooldown": "13.0 13.0 13.0 13.0",
         "AbilityDuration": "3.0 4.0 5.0 6.0",
         "AbilityDamage": "0 0 0 0",
         "AbilityManaCost": "90 90 90 90",
@@ -510,7 +510,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "trueshot_ranged_damage": "7 14 21 28"
+                "trueshot_ranged_damage": "8 16 24 32"
             }
         }
     },
@@ -521,7 +521,7 @@ define({"DOTAAbilities": {
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "marksmanship_agility_bonus": "15 30 45"
+            "marksmanship_agility_bonus": "15 30 60"
         }}
     },
     "earthshaker_fissure": {
@@ -558,7 +558,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastRange": "0",
         "AbilityCastPoint": "0.69 0.69 0.69 0.69",
-        "AbilityCooldown": "7.0 7.0 7.0 7.0",
+        "AbilityCooldown": "6.0 6.0 6.0 6.0",
         "AbilityDuration": "14.0 14.0 14.0 14.0",
         "AbilityDamage": "0 0 0 0",
         "AbilityManaCost": "50 50 50 50",
@@ -816,7 +816,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "1000",
         "AbilityCastPoint": "0.4 0.4 0.4",
-        "AbilityCooldown": "90.0 80.0 70.0",
+        "AbilityCooldown": "60.0 50.0 40.0",
         "AbilityDamage": "300 400 500",
         "AbilityManaCost": "150 200 250",
         "AbilitySpecial": {
@@ -826,7 +826,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "ghostship_width": "400 400 400"
+                "ghostship_width": "425 425 425"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -912,7 +912,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "fiery_soul_attack_speed_bonus": "40 50 60 70"
+                "fiery_soul_attack_speed_bonus": "40 55 70 85"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -934,7 +934,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.45 0.45 0.45",
-        "AbilityCooldown": "120.0 90.0 55.0",
+        "AbilityCooldown": "90.0 70.0 50.0",
         "AbilityManaCost": "280 420 680",
         "AbilityModifierSupportValue": "0.0",
         "AbilitySpecial": {
@@ -1015,10 +1015,10 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE",
-        "AbilityCastRange": "600 650 700 750",
+        "AbilityCastRange": "750",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityChannelTime": "4.1 4.1 4.1 4.1",
-        "AbilityCooldown": "25.0 20.0 15.0 10.0",
+        "AbilityCooldown": "20.0 15.0 10.0 5.0",
         "AbilityManaCost": "10 10 10 10",
         "AbilityModifierSupportValue": "5.0",
         "AbilitySpecial": {
@@ -1032,7 +1032,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "break_distance": "800 800 800 800"
+                "break_distance": "850"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -1054,27 +1054,23 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "700",
         "AbilityCastPoint": "0.3 0.3 0.3",
-        "AbilityCooldown": "150.0 90.0 55.0",
+        "AbilityCooldown": "170.0 105.0 40.0",
         "AbilityManaCost": "200 420 650",
         "AbilityModifierSupportValue": "0.0",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "500 650 850"
+                "damage": "600 725 850"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "damage_scepter": "600 800 1025"
+                "damage_scepter": "725 875 1025"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
                 "mana_cost_scepter": "200 420 625"
             },
             "04": {
-                "var_type": "FIELD_FLOAT",
-                "cooldown_scepter": "150 90 50"
-            },
-            "05": {
                 "var_type": "FIELD_FLOAT",
                 "damage_delay": "0.25"
             }
@@ -1087,7 +1083,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "3000",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "25.0 25.0 25.0 25.0",
+        "AbilityCooldown": "20.0 20.0 20.0 20.0",
         "AbilityDuration": "3.11 3.11 3.11 3.11",
         "AbilityDamage": "90 180 270 360",
         "AbilityManaCost": "100 100 100 100",
@@ -1197,7 +1193,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "1000",
-        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastPoint": "0.45",
         "AbilityCooldown": "11.0 11.0 11.0 11.0",
         "AbilityDamage": "100 175 250 325",
         "AbilityManaCost": "140 155 160 165",
@@ -1208,7 +1204,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "width": "255"
+                "width": "200"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -1229,7 +1225,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "600 700 800 900",
-        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastPoint": "0.45",
         "AbilityCooldown": "10",
         "AbilityManaCost": "100 100 100 100",
         "AbilityModifierSupportValue": "0.3",
@@ -1281,7 +1277,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "mana_cost": "20 20 20 20"
+                "mana_cost": "30 30 30 30"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -1305,7 +1301,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "mana_cost": "20 20 20 20"
+                "mana_cost": "30 30 30 30"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -1329,7 +1325,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
         "AbilityCastRange": "700 1100 1500",
-        "AbilityCastPoint": "0.3 0.3 0.3",
+        "AbilityCastPoint": "0.45",
         "AbilityCooldown": "80.0 80.0 80.0",
         "AbilityManaCost": "25 25 25",
         "AbilitySpecial": {
@@ -1357,7 +1353,7 @@ define({"DOTAAbilities": {
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityManaCost": "150 150 150",
-        "AbilityCastPoint": "0.3 0.3 0.3"
+        "AbilityCastPoint": "0.45 0.45 0.45"
     },
     "nevermore_shadowraze1": {
         "ID": "5059",
@@ -1441,7 +1437,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "necromastery_souls_hero_bonus": "5"
+                "necromastery_souls_hero_bonus": "11"
             }
         }
     },
@@ -1455,7 +1451,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "presence_armor_reduction": "-2 -3 -4 -5"
+                "presence_armor_reduction": "-3 -4 -5 -6"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -1507,6 +1503,10 @@ define({"DOTAAbilities": {
             "08": {
                 "var_type": "FIELD_INTEGER",
                 "requiem_line_speed": "700 700 700"
+            },
+            "09": {
+                "var_type": "FIELD_FLOAT",
+                "soul_death_release": "0.5"
             }
         }
     },
@@ -1529,7 +1529,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "3.0 3.0 3.0 3.0"
+                "duration": "3.25"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -1655,7 +1655,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "200 200 200 200"
+                "radius": "225"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -1688,7 +1688,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0.1 0.1 0.1 0.1",
         "AbilityCooldown": "16.0 16.0 16.0 16.0",
-        "AbilityDamage": "60 120 180 240",
+        "AbilityDamage": "70 140 210 280",
         "AbilityManaCost": "100 110 120 130",
         "AbilitySpecial": {
             "01": {
@@ -1744,7 +1744,7 @@ define({"DOTAAbilities": {
             },
             "05": {
                 "var_type": "FIELD_FLOAT",
-                "coil_duration": "5.0 5.0 5.0"
+                "coil_duration": "6.0 6.0 6.0"
             },
             "06": {
                 "var_type": "FIELD_INTEGER",
@@ -1752,7 +1752,7 @@ define({"DOTAAbilities": {
             },
             "07": {
                 "var_type": "FIELD_FLOAT",
-                "coil_duration_scepter": "7.0 7.0 7.0"
+                "coil_duration_scepter": "8.0 8.0 8.0"
             },
             "08": {
                 "var_type": "FIELD_INTEGER",
@@ -1995,11 +1995,11 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage_min": "80 120 160 200"
+                "damage_min": "60 100 140 180"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "damage_max": "140 210 280 350"
+                "damage_max": "160 230 300 370"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -2014,9 +2014,10 @@ define({"DOTAAbilities": {
     "razor_static_link": {
         "ID": "5083",
         "AbilityName": "razor_static_link",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "25.0",
@@ -2069,7 +2070,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "slow_duration": "0.3 0.6 0.9 1.2"
+                "slow_duration": "0.4 0.8 1.2 1.6"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
@@ -2146,7 +2147,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "blast_slow": "-15"
+                "blast_slow": "-20"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -2401,11 +2402,11 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "great_cleave_radius": "200.0"
+                "great_cleave_radius": "300.0"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "great_cleave_damage": "30 40 50 60"
+                "great_cleave_damage": "25 40 55 70"
             }
         }
     },
@@ -2420,7 +2421,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "warcry_armor": "3 6 9 12"
+                "warcry_armor": "4 8 12 16"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -2428,7 +2429,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "warcry_radius": "700"
+                "warcry_radius": "900"
             }
         }
     },
@@ -2443,7 +2444,7 @@ define({"DOTAAbilities": {
         "AbilityManaCost": "100 150 200",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "gods_strength_damage": "100 140 180"
+            "gods_strength_damage": "100 150 200"
         }}
     },
     "storm_spirit_static_remnant": {
@@ -2452,7 +2453,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0 0 0 0",
-        "AbilityCooldown": "4.0 4.0 4.0 4.0",
+        "AbilityCooldown": "3.5",
         "AbilityDuration": "12.0 12.0 12.0 12.0",
         "AbilityDamage": "140 180 220 260",
         "AbilityManaCost": "70 80 90 100",
@@ -2737,7 +2738,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "700 900 1100 1300",
+        "AbilityCastRange": "1300 1300 1300 1300",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0",
         "AbilityCooldown": "10.0 10.0 10.0 10.0",
         "AbilityDamage": "75 150 225 300",
@@ -2766,7 +2767,7 @@ define({"DOTAAbilities": {
             },
             "06": {
                 "var_type": "FIELD_INTEGER",
-                "tooltip_range": "700 900 1100 1300"
+                "tooltip_range": "1300"
             }
         }
     },
@@ -2850,7 +2851,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "700",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
         "AbilityDamage": "85 100 115 145",
-        "AbilityCooldown": "2.0 2.0 2.0 2.0",
+        "AbilityCooldown": "1.75 1.75 1.75 1.75",
         "AbilityManaCost": "65 70 75 80",
         "AbilitySpecial": {
             "01": {
@@ -2923,7 +2924,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
-        "AbilityCooldown": "120.0 120.0 120.0",
+        "AbilityCooldown": "90.0",
         "AbilityManaCost": "225 325 450",
         "AbilitySpecial": {
             "01": {
@@ -3047,7 +3048,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "armor_reduction": "-8 -12 -16"
+                "armor_reduction": "-8 -14 -20"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -3145,7 +3146,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "speed": "900 900 900"
+                "speed": "775"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
@@ -3332,10 +3333,10 @@ define({"DOTAAbilities": {
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityChannelTime": "4.0 4.0 4.0",
+        "AbilityChannelTime": "7.0 7.0 7.0",
         "AbilityCastPoint": "0.3 0.3 0.3",
         "AbilityCooldown": "150.0 120.0 90.0",
-        "AbilityDuration": "4.0 4.0 4.0",
+        "AbilityDuration": "7.0 7.0 7.0",
         "AbilityManaCost": "200 400 600",
         "AbilityModifierSupportValue": "0.35",
         "AbilitySpecial": {
@@ -3346,10 +3347,6 @@ define({"DOTAAbilities": {
             "02": {
                 "var_type": "FIELD_INTEGER",
                 "explosion_radius": "215 215 215"
-            },
-            "03": {
-                "var_type": "FIELD_INTEGER",
-                "explosion_count": "40"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -3522,7 +3519,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
-        "AbilityCooldown": "9.25 9.25 9.25 8.0",
+        "AbilityCooldown": "8.0",
         "AbilityDuration": "4.0 4.0 4.0 4.0",
         "AbilityDamage": "50 100 150 200",
         "AbilityManaCost": "125 150 170 190",
@@ -3738,7 +3735,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage": "10 20 30 40"
+                "bonus_damage": "16 24 32 40"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -3892,7 +3889,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "30 40 65 80"
+                "damage": "40 40 65 65"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -3944,7 +3941,7 @@ define({"DOTAAbilities": {
         "AbilityName": "enigma_midnight_pulse",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "500",
+        "AbilityCastRange": "700",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "25.0 25.0 25.0 25.0",
         "AbilityManaCost": "95 110 125 140",
@@ -3973,7 +3970,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.3 0.3 0.3",
         "AbilityChannelTime": "4.0 4.0 4.0",
         "AbilityCooldown": "200.0 190.0 180.0",
-        "AbilityManaCost": "200 300 400",
+        "AbilityManaCost": "250 350 450",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -4138,7 +4135,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "350 350 350 350"
+                "radius": "360"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -4146,7 +4143,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "8.0 8.0 8.0 8.0"
+                "duration": "9.0"
             },
             "05": {
                 "var_type": "FIELD_FLOAT",
@@ -4163,7 +4160,7 @@ define({"DOTAAbilities": {
         "AbilityName": "sniper_headshot",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
-        "AbilityDamage": "30 40 50 60",
+        "AbilityDamage": "30 45 60 75",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
@@ -4181,7 +4178,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "bonus_attack_range": "65 130 195 260"
+            "bonus_attack_range": "75 150 225 300"
         }}
     },
     "sniper_assassinate": {
@@ -4228,7 +4225,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "heal": "50 75 100 130"
+                "heal": "70 90 110 130"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -4261,11 +4258,19 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "mana": "12 24 36 60"
+                "mana_regen": "2 4 6 10"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "hero_mana": "0 0 0 600"
+                "hero_multiplier": "10"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "health_regen": "1 2 3 4"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "regen_duration": "6.0"
             }
         }
     },
@@ -4348,7 +4353,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
         "AbilityCooldown": "20.0 20.0 20.0 20.0",
-        "AbilityDamage": "10 20 30 40",
+        "AbilityDamage": "15 25 35 45",
         "AbilityManaCost": "90 110 130 150",
         "AbilityCastRange": "500",
         "AbilityModifierSupportValue": "0.0",
@@ -5084,7 +5089,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "mana_multiplier": "0.75 1.00 1.25 1.50"
+                "mana_multiplier": "1.00 1.25 1.50 1.75"
             }
         }
     },
@@ -5097,7 +5102,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "850",
+        "AbilityCastRange": "900",
         "AbilityCastPoint": "0.2 0.2 0.2",
         "AbilityChannelTime": "10.0",
         "AbilityCooldown": "22.0 22.0 22.0",
@@ -5207,7 +5212,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "crit_bonus": "250 325 400"
+                "crit_bonus": "250 350 450"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -5388,8 +5393,8 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "AbilitySpecial": {
             "01": {
-                "var_type": "FIELD_INTEGER",
-                "bonus_damage": "2 4 6 8"
+                "var_type": "FIELD_FLOAT",
+                "bonus_damage": "2.5 5 7.5 10"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -5397,7 +5402,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "max_damage_tooltip": "32 64 96 128"
+                "max_damage_tooltip": "40 80 120 160"
             }
         }
     },
@@ -5410,7 +5415,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "3.0 3.0 3.0 3.0"
+                "duration": "4.0"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -5470,7 +5475,7 @@ define({"DOTAAbilities": {
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
-                "cast_range_scepter": "800 800 800"
+                "cast_range_scepter": "900"
             },
             "08": {
                 "var_type": "FIELD_INTEGER",
@@ -5507,7 +5512,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bounces": "1 2 3 4"
+                "bounces": "1 2 3 5"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -5644,7 +5649,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_armor": "2 4 6 8"
+                "bonus_armor": "3 6 9 12"
             }
         }
     },
@@ -5669,10 +5674,6 @@ define({"DOTAAbilities": {
                 "var_type": "FIELD_INTEGER",
                 "bonus_attack_range": "372 372 372"
             },
-            "04": {
-                "var_type": "FIELD_INTEGER",
-                "bonus_damage": "0 5 14"
-            },
             "05": {
                 "var_type": "FIELD_INTEGER",
                 "corrosive_breath_damage": "20 20 20"
@@ -5683,7 +5684,7 @@ define({"DOTAAbilities": {
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
-                "splash_radius": "75 150 250"
+                "splash_radius": "100 200 250"
             },
             "08": {
                 "var_type": "FIELD_INTEGER",
@@ -5735,7 +5736,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
-        "AbilityCooldown": "15 13 11 9",
+        "AbilityCooldown": "15 13 11 7",
         "AbilityManaCost": "100 115 130 145",
         "AbilityDamage": "8 16 24 32",
         "AbilityDuration": "8 9 10 10",
@@ -5809,7 +5810,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "damage_radius": "170"
+                "damage_radius": "185"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -5878,7 +5879,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "interval": "0.75 0.75 0.75 0.75"
+                "interval": "0.7 0.7 0.7 0.7"
             }
         }
     },
@@ -5897,11 +5898,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "3.0 4.0 5.0 6.0"
+                "duration": "5.0 6.0 7.0 8.0"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "drain_amount": "60 90 120 150"
+                "drain_amount": "80 120 160 200"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -6022,11 +6023,11 @@ define({"DOTAAbilities": {
     "leshrac_diabolic_edict": {
         "ID": "5242",
         "AbilityName": "leshrac_diabolic_edict",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
         "AbilityUnitDamageType": "DAMAGE_TYPE_COMPOSITE",
-        "AbilityCastPoint": "0 0 0 0",
+        "AbilityCastPoint": "0.7 0.7 0.7 0.7",
         "AbilityCooldown": "22 22 22 22",
         "AbilityManaCost": "95 120 135 155",
         "AbilityDamage": "12.5 25 37.5 50",
@@ -6201,7 +6202,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "0",
         "AbilityCooldown": "15 15 15 15",
         "AbilityManaCost": "75 75 75 75",
-        "AbilityDuration": "2.5 3.25 4 4.75",
+        "AbilityDuration": "3 4 5 6",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -6209,7 +6210,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "2.5 3.25 4 4.75"
+                "duration": "3.0 4.0 5.0 6.0"
             }
         }
     },
@@ -6288,14 +6289,14 @@ define({"DOTAAbilities": {
         "AbilityName": "dark_seer_vacuum",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "550",
+        "AbilityCastRange": "500",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
-        "AbilityCooldown": "16.0 16.0 16.0 16.0",
+        "AbilityCooldown": "19.0",
         "AbilityManaCost": "100 130 160 190",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "275 375 475 575"
+                "radius": "250 350 450 550"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -6418,7 +6419,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "attack_speed_bonus_pct": "110 110 110 110"
+                "attack_speed_bonus_pct": "130 130 130 130"
             }
         }
     },
@@ -6539,7 +6540,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "300 300 300 300"
+                "radius": "315 315 315 315"
             }
         }
     },
@@ -6664,7 +6665,6 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastRange": "450",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "25 25 25 25",
@@ -6708,7 +6708,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "450",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0",
         "AbilityCooldown": "0.0 0.0 0.0 0.0",
-        "AbilityDuration": "6 6 6 6",
+        "AbilityDuration": "7",
         "AbilityDamage": "4 8 12 16",
         "AbilityManaCost": "0 0 0 0",
         "AbilitySpecial": {"01": {
@@ -6780,7 +6780,7 @@ define({"DOTAAbilities": {
             },
             "08": {
                 "var_type": "FIELD_FLOAT",
-                "cooldown_scepter": "24 16 8"
+                "cooldown_scepter": "4"
             },
             "09": {
                 "var_type": "FIELD_INTEGER",
@@ -6990,17 +6990,13 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "miss_chance": "10 15 20 25"
+                "miss_chance": "10 20 30 40"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
                 "bonus_movespeed": "-10 -20 -30 -40"
             },
             "03": {
-                "var_type": "FIELD_INTEGER",
-                "bonus_damage": "2 4 6 8"
-            },
-            "04": {
                 "var_type": "FIELD_FLOAT",
                 "duration": "2.0 2.0 2.0 2.0"
             }
@@ -7159,7 +7155,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "attack_rate": "1.5 1.5 1.5 1.5"
+                "attack_rate": "1.35 1.35 1.35 1.35"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
@@ -7301,15 +7297,19 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "path_delay": "0.5"
+                "path_delay": "0.4"
             },
             "02": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "1.0 1.4 1.8 2.2"
+            },
+            "03": {
                 "var_type": "FIELD_INTEGER",
                 "path_radius": "150"
             },
-            "03": {
-                "var_type": "FIELD_FLOAT",
-                "tooltip_duration": "1.0 1.33 1.66 2.0"
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "damage": "100"
             }
         }
     },
@@ -7328,7 +7328,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "175 175 175 175"
+                "radius": "300 300 300 300"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -7385,7 +7385,7 @@ define({"DOTAAbilities": {
         "AbilityName": "batrider_sticky_napalm",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityCastRange": "700",
-        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastPoint": "0.2 0.2 0.2 0.2",
         "AbilityCooldown": "3.0 3.0 3.0 3.0",
         "AbilityManaCost": "20 20 20 20",
         "AbilityModifierSupportValue": "0.5",
@@ -7422,7 +7422,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "1500",
-        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastPoint": "0.2 0.2 0.2 0.2",
         "AbilityCooldown": "11.0 11.0 11.0 11.0",
         "AbilityManaCost": "80 100 120 140",
         "AbilityModifierSupportValue": "1.0",
@@ -7480,7 +7480,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "15.0 15.0 15.0 15.0"
+                "duration": "18.0 18.0 18.0 18.0"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -7500,7 +7500,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
-        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastPoint": "0.2 0.2 0.2 0.2",
         "AbilityCastRange": "175",
         "AbilityCooldown": "90.0 70.0 50.0",
         "AbilityManaCost": "150 150 150",
@@ -7571,13 +7571,28 @@ define({"DOTAAbilities": {
             }
         }
     },
+    "chen_test_of_faith_teleport": {
+        "ID": "5522",
+        "AbilityName": "chen_test_of_faith_teleport",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastRange": "600 600 600 600",
+        "AbilityCooldown": "24.0 24.0 24.0 24.0",
+        "AbilityManaCost": "200 200 200 200",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_FLOAT",
+            "hero_teleport_delay": "6.0 5.0 4.0 3.0"
+        }}
+    },
     "chen_holy_persuasion": {
         "ID": "5330",
         "AbilityName": "chen_holy_persuasion",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
-        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
-        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CREEP",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCastRange": "900 900 900 900",
         "AbilityCooldown": "30.0 26.0 22.0 18.0",
@@ -7590,10 +7605,6 @@ define({"DOTAAbilities": {
             "02": {
                 "var_type": "FIELD_INTEGER",
                 "health_bonus": "75 150 225 300"
-            },
-            "03": {
-                "var_type": "FIELD_FLOAT",
-                "hero_teleport_delay": "6.0 5.0 4.0 3.0"
             }
         }
     },
@@ -7676,7 +7687,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage": "20 30 40 50"
+                "bonus_damage": "20 35 50 65"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -7753,18 +7764,14 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCastRange": "300 300 300 300",
-        "AbilityCooldown": "60.0 55.0 50.0 45.0",
-        "AbilityManaCost": "60 60 60 60",
+        "AbilityCooldown": "70.0 60.0 50.0 40.0",
+        "AbilityManaCost": "60 50 40 30",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "creep_level": "2 4 5 6"
+                "bonus_gold": "25 50 75 100"
             },
             "02": {
-                "var_type": "FIELD_INTEGER",
-                "bonus_gold": "40 60 80 100"
-            },
-            "03": {
                 "var_type": "FIELD_INTEGER",
                 "health_per_second": "20 20 20 20"
             }
@@ -7782,7 +7789,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage_per_second": "12 16 20 24"
+                "damage_per_second": "12 18 24 30"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -7813,11 +7820,11 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "100 150 200 250"
+                "damage": "125 175 225 275"
             },
             "02": {
-                "var_type": "FIELD_INTEGER",
-                "lvl_bonus_damage": "275 275 275 275"
+                "var_type": "FIELD_FLOAT",
+                "lvl_bonus_damage": "20"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -7937,12 +7944,12 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "800 800 800 800",
         "AbilityCastPoint": "0.01 0.01 0.01 0.01",
         "AbilityCooldown": "50.0 46.0 42.0 38.0",
-        "AbilityDuration": "40.0 40.0 40.0 40.0",
+        "AbilityDuration": "30.0",
         "AbilityManaCost": "140 140 140 140",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "450 450 450 450"
+                "radius": "525"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -7950,7 +7957,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage": "40 50 60 70"
+                "bonus_damage": "50 60 70 80"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -8031,7 +8038,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "movement_speed": "425 500 575 650"
+                "movement_speed": "600 650 700 750"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -8063,7 +8070,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movespeed_pct": "6 8 10 12"
+                "bonus_movespeed_pct": "6 10 14 18"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -8088,12 +8095,12 @@ define({"DOTAAbilities": {
                 "chance_pct": "17 17 17 17"
             },
             "02": {
-                "var_type": "FIELD_INTEGER",
-                "damage": "25 50 75 100"
+                "var_type": "FIELD_FLOAT",
+                "damage": "10 20 30 40"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "0.95 1.15 1.35 1.55"
+                "duration": "1.0 1.2 1.4 1.6"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -8163,7 +8170,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "0",
-        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "6.0 6.0 6.0 6.0",
         "AbilityDuration": "4.0 4.0 4.0 4.0",
         "AbilityDamage": "90 140 190 240",
@@ -8182,9 +8189,9 @@ define({"DOTAAbilities": {
     "ursa_overpower": {
         "ID": "5358",
         "AbilityName": "ursa_overpower",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastRange": "0",
-        "AbilityCastPoint": "0 0 0 0",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "10.0 10.0 10.0 10.0",
         "AbilityDuration": "15.0 15.0 15.0 15.0",
         "AbilityManaCost": "45 55 65 75",
@@ -8315,7 +8322,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "800"
+                "radius": "1000"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -8364,7 +8371,7 @@ define({"DOTAAbilities": {
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "400"
+                "radius": "450"
             },
             "08": {
                 "var_type": "FIELD_INTEGER",
@@ -8384,7 +8391,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.2",
         "AbilityCastRange": "900",
         "AbilityCooldown": "22.0",
-        "AbilityManaCost": "160",
+        "AbilityManaCost": "130 140 150 160",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -8396,7 +8403,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "8 16 24 32"
+                "damage": "14 20 26 32"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -8439,7 +8446,11 @@ define({"DOTAAbilities": {
             },
             "06": {
                 "var_type": "FIELD_INTEGER",
-                "max_damage": "130 200 270 340"
+                "max_damage": "150 220 290 360"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "175"
             }
         }
     },
@@ -8472,7 +8483,7 @@ define({"DOTAAbilities": {
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
-                "max_damage": "130 200 270 340"
+                "max_damage": "150 220 290 360"
             },
             "06": {
                 "var_type": "FIELD_INTEGER",
@@ -8495,15 +8506,15 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "20.0"
+                "duration": "25.0"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_gold": "2 4 6 8"
+                "bonus_gold": "4 6 8 10"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_bonus_gold": "2"
+                "bonus_bonus_gold": "1 2 3 4"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -8530,7 +8541,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "base_attack_time": "1.45 1.3 1.15"
+                "base_attack_time": "1.4 1.2 1.0"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -9158,11 +9169,11 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastPoint": "0.3 0.3 0.3",
         "AbilityCooldown": "160.0 160.0 160.0",
-        "AbilityDuration": "3.0 4.0 5.0",
+        "AbilityDuration": "3.0 4.5 6.0",
         "AbilityManaCost": "250 350 450",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_FLOAT",
-            "tooltip_duration": "3.0 4.0 5.0"
+            "tooltip_duration": "3.0 4.5 6.0"
         }}
     },
     "obsidian_destroyer_arcane_orb": {
@@ -9201,7 +9212,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "int_steal": "2 4 6 8"
+                "int_steal": "4 6 8 10"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -9277,7 +9288,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "30.0 30.0 30.0 30.0",
-        "AbilityManaCost": "125 125 125 125",
+        "AbilityManaCost": "145",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -9297,7 +9308,7 @@ define({"DOTAAbilities": {
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
-                "wolf_hp": "400 450 500 550"
+                "wolf_hp": "200 240 280 320"
             }
         }
     },
@@ -9900,7 +9911,7 @@ define({"DOTAAbilities": {
         "AbilityCooldown": "13.0 13.0 13.0 13.0",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
-        "AbilityManaCost": "50 50 50 50",
+        "AbilityManaCost": "50 60 70 80",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -9943,7 +9954,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "150 150 150 150"
+                "radius": "180 180 180 180"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
@@ -10007,7 +10018,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "chaos_bolt_speed": "3000"
+                "chaos_bolt_speed": "1000"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -10149,7 +10160,7 @@ define({"DOTAAbilities": {
         "ID": "5432",
         "AbilityName": "meepo_geostrike",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-        "AbilityDamage": "5 10 15 20",
+        "AbilityDamage": "7 14 21 28",
         "AbilityDuration": "2",
         "AbilityModifierSupportBonus": "5",
         "AbilitySpecial": {"01": {
@@ -10242,20 +10253,29 @@ define({"DOTAAbilities": {
     "treant_living_armor": {
         "ID": "5436",
         "AbilityName": "treant_living_armor",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCooldown": "20.0 20.0 20.0 20.0",
+        "AbilityManaCost": "30 35 40 45",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "900 900 900 900"
+                "damage_count": "6 6 6 6"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "armor_bonus": "1 2 3 4"
+                "health_regen": "4 6 8 10"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "regen_bonus": "1 2 3 4"
+                "damage_block": "20 40 60 80"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "20.0 20.0 20.0 20.0"
             }
         }
     },
@@ -10266,13 +10286,12 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "115 105 95",
-        "AbilityDamage": "50 75 100",
+        "AbilityCooldown": "80",
         "AbilityManaCost": "150 175 200",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "3.0 3.0 3.0"
+                "duration": "3.0 3.75 4.5"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -10313,7 +10332,7 @@ define({"DOTAAbilities": {
         "MaxLevel": "1",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.56",
-        "AbilityCooldown": "20",
+        "AbilityCooldown": "10",
         "AbilityManaCost": "400",
         "AbilityDamage": "275",
         "AbilitySpecial": {
@@ -10362,7 +10381,7 @@ define({"DOTAAbilities": {
         "AbilityName": "ogre_magi_bloodlust",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastRange": "600",
         "AbilityCastPoint": "0.56",
@@ -10379,7 +10398,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement_speed": "6 9 12 15"
+                "bonus_movement_speed": "10 12 14 16"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -10457,11 +10476,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "300"
+                "radius": "325"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "decay_duration": "21.0 24.0 27.0 30.0"
+                "decay_duration": "25.0 30.0 35.0 40.0"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -10567,9 +10586,13 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "2.5"
+                "health_threshold_pct": "5 10 15 20"
             },
             "04": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "2.5"
+            },
+            "05": {
                 "var_type": "FIELD_INTEGER",
                 "bonus_speed": "50"
             }
@@ -10690,7 +10713,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "500 500 500 500"
+                "radius": "440"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -10888,7 +10911,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "damage_max": "170 210 250"
+                "damage_max": "170 220 270"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -10937,10 +10960,10 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "600 600 600 600",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
         "AbilityCooldown": "28.0 20.0 12.0 4.0",
-        "AbilityManaCost": "90 110 130 150",
+        "AbilityManaCost": "130 120 110 100",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "int_multiplier": "4"
+            "int_multiplier": "5"
         }}
     },
     "nyx_assassin_spiked_carapace": {
@@ -10948,13 +10971,13 @@ define({"DOTAAbilities": {
         "AbilityName": "nyx_assassin_spiked_carapace",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
-        "AbilityCooldown": "10.0 10.0 10.0 10.0",
+        "AbilityCooldown": "14 14 14 14",
         "AbilityCastPoint": "0 0 0 0",
-        "AbilityManaCost": "50 50 50",
+        "AbilityManaCost": "40 40 40 40",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "reflect_duration": "4.5"
+                "reflect_duration": "2.75"
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
@@ -10981,7 +11004,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "movement_speed": "10 15 20"
+                "movement_speed": "16 18 20"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -10993,7 +11016,7 @@ define({"DOTAAbilities": {
         "ID": "5467",
         "AbilityName": "naga_siren_mirror_image",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCastPoint": "0.65",
         "AbilityCooldown": "40.0 40.0 40.0 40.0",
         "AbilityManaCost": "70 80 90 100",
         "AbilitySpecial": {
@@ -11030,7 +11053,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
-        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCastPoint": "0.65",
         "AbilityCooldown": "14.0 14.0 14.0 14.0",
         "AbilityManaCost": "75 85 95 105",
         "AbilityCastRange": "650 650 650 650",
@@ -11078,7 +11101,7 @@ define({"DOTAAbilities": {
         "AbilityName": "naga_siren_song_of_the_siren",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCastPoint": "0.65",
         "AbilityCastRange": "1250 1250 1250",
         "AbilityCooldown": "180.0 120.0 60.0",
         "AbilityManaCost": "100 100 100",
@@ -11111,7 +11134,7 @@ define({"DOTAAbilities": {
         "AbilityName": "keeper_of_the_light_illuminate",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "1400",
+        "AbilityCastRange": "1800",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "10.0 10.0 10.0 10.0",
         "AbilityChannelTime": "2.0 3.0 4.0 5.0",
@@ -11127,7 +11150,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "range": "1200"
+                "range": "1600"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -11170,7 +11193,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
-        "AbilityCooldown": "18.0 18.0 18.0 18.0",
+        "AbilityCooldown": "16.0",
         "AbilityManaCost": "75 75 75 75",
         "AbilityCastRange": "550 700 850 1000",
         "AbilitySpecial": {
@@ -11197,7 +11220,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "900 900 900 900",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "19.0 18.0 17.0 16.0",
-        "AbilityManaCost": "40 55 70 85",
+        "AbilityManaCost": "25 45 65 85",
         "AbilityModifierSupportValue": "3.0",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
@@ -11368,7 +11391,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "speed_bonus": "32 32 32 32"
+                "movespeed_bonus": "32 32 32 32"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "attackspeed_bonus": "64 64 64 64"
             }
         }
     },
@@ -11394,7 +11421,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "soul_charge_damage": "60"
+                "soul_charge_damage": "65"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -11559,6 +11586,10 @@ define({"DOTAAbilities": {
             "06": {
                 "var_type": "FIELD_FLOAT",
                 "tether_duration": "12.0 12.0 12.0 12.0"
+            },
+            "07": {
+                "var_type": "FIELD_FLOAT",
+                "tether_heal_amp": "1.5"
             }
         }
     },
@@ -11633,11 +11664,11 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "drain_pct": "0.025 0.025 0.025 0.025"
+                "drain_pct": "0.035 0.035 0.035 0.035"
             },
             "05": {
                 "var_type": "FIELD_FLOAT",
-                "drain_pct_tooltip": "2.5 2.5 2.5 2.5"
+                "drain_pct_tooltip": "3.5 3.5 3.5 3.5"
             }
         }
     },
@@ -11699,7 +11730,7 @@ define({"DOTAAbilities": {
         "AbilityName": "slark_dark_pact",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
         "AbilityCastPoint": "0.001 0.001 0.001 0.001",
-        "AbilityCooldown": "10.0 9.0 8.0 7.0",
+        "AbilityCooldown": "9.0 8.0 7.0 6.0",
         "AbilityManaCost": "55 50 45 40",
         "AbilitySpecial": {
             "01": {
@@ -11807,7 +11838,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_regen_pct": "3 4 5"
+                "bonus_regen_pct": "3 5 7"
             }
         }
     },
@@ -11823,7 +11854,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "damage_modifier_tooltip": "45 55 65 75"
+                "damage_modifier_tooltip": "50 60 70 80"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -11873,7 +11904,7 @@ define({"DOTAAbilities": {
             },
             "06": {
                 "var_type": "FIELD_INTEGER",
-                "snake_scale": "20"
+                "snake_scale": "25"
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
@@ -11892,7 +11923,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_FLOAT",
-            "damage_per_mana": "0.75 1.25 1.5 2.0"
+            "damage_per_mana": "0.75 1.25 1.75 2.25"
         }}
     },
     "medusa_stone_gaze": {
@@ -12033,7 +12064,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "trance_duration": "5.0"
+                "trance_duration": "10.0"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -12075,10 +12106,16 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "150 150 150 150",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
         "AbilityManaCost": "0 0 0 0",
-        "AbilitySpecial": {"01": {
-            "var_type": "FIELD_INTEGER",
-            "edge_damage": "175 250 325 400"
-        }}
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "edge_damage": "175 250 325 400"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "190"
+            }
+        }
     },
     "centaur_return": {
         "ID": "5516",
@@ -12156,11 +12193,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage_pct": "15 25 35 45"
+                "bonus_damage_pct": "20 30 40 50"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "cleave_damage_pct": "15 25 35 45"
+                "cleave_damage_pct": "20 30 40 50"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -12173,7 +12210,6 @@ define({"DOTAAbilities": {
         "AbilityName": "magnataur_skewer",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "800 800 800 800",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "30.0 30.0 30.0 30.0",
         "AbilityManaCost": "80 80 80 80",
@@ -12193,7 +12229,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "slow_duration": "2.0 2.0 2.0 2.0"
+                "slow_duration": "2.5"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
@@ -12202,6 +12238,10 @@ define({"DOTAAbilities": {
             "06": {
                 "var_type": "FIELD_INTEGER",
                 "skewer_damage": "70 140 210 280"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "range": "800 800 800 800"
             }
         }
     },
@@ -12217,22 +12257,18 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "410 410 410",
         "AbilitySpecial": {
             "01": {
-                "var_type": "FIELD_FLOAT",
-                "pull_duration": "0.4"
-            },
-            "02": {
                 "var_type": "FIELD_INTEGER",
                 "pull_radius": "410"
             },
-            "03": {
+            "02": {
                 "var_type": "FIELD_INTEGER",
                 "polarity_damage": "150 225 300"
             },
-            "04": {
+            "03": {
                 "var_type": "FIELD_FLOAT",
                 "hero_stun_duration": "2.5 3.25 4.0"
             },
-            "05": {
+            "04": {
                 "var_type": "FIELD_FLOAT",
                 "creep_stun_duration": "3.0 4.0 5.0"
             }
@@ -12452,7 +12488,7 @@ define({"DOTAAbilities": {
         "AbilityName": "roshan_slam",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityManaCost": "90 90 90 90",
+        "AbilityManaCost": "0",
         "AbilityCooldown": "10.0",
         "AbilityCastPoint": "0.47 0.47 0.47 0.47",
         "AbilitySpecial": {

@@ -4,9 +4,9 @@ define({
      * available in the language files 
      */
     // Attributes
-    DOTA_ATTRIBUTE_AGILITY: "dota_ability_variable_agi",
-    DOTA_ATTRIBUTE_INTELLECT: "dota_ability_variable_int",
-    DOTA_ATTRIBUTE_STRENGTH: "dota_ability_variable_str",
+    DOTA_ATTRIBUTE_AGILITY: "DOTA_StatTooltip_Agility",
+    DOTA_ATTRIBUTE_INTELLECT: "DOTA_StatTooltip_Intelligence",
+    DOTA_ATTRIBUTE_STRENGTH: "DOTA_StatTooltip_Strength",
     // Hero roles
     Carry: "DOTA_Hero_Selection_AdvFilter_Carry",
     Disabler: "DOTA_Hero_Selection_AdvFilter_Disabler",

@@ -3,7 +3,7 @@ define(function(require, exports, module) {
     var config = {
         language: "english",
         files: {
-            stringmap: 'dotaJS/bin/data/stringmap',
+            stringmap: 'dotaJS/bin/stringmap',
             translations: {
                 english: 'dotaJS/bin/translations/dota_english',
                 german: 'dotaJS/bin/translations/dota_german',
@@ -13,6 +13,16 @@ define(function(require, exports, module) {
                 heroes: 'dotaJS/bin/data/npc_heroes',
                 items: 'dotaJS/bin/data/items',
                 units: 'dotaJS/bin/data/npc_units',
+                activelist: 'dotaJS/bin/data/activelist',
+            },
+            images: {
+                abilities: 'dotaJS/bin/images/spellicons/',
+                heroes: {
+                    selection: 'dotaJS/bin/images/heroes/selection/',
+                    portraits: 'dotaJS/bin/images/heroes/',
+                    minimap: 'dotaJS/bin/images/miniheroes/'
+                },
+                items: 'dotaJS/bin/images/items/',
             }
         }
     };

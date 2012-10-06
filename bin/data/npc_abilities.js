@@ -12179,7 +12179,7 @@ define({"DOTAAbilities": {
         "AbilityName": "magnataur_empower",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastRange": "800",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
@@ -12242,6 +12242,10 @@ define({"DOTAAbilities": {
             "07": {
                 "var_type": "FIELD_INTEGER",
                 "range": "800 800 800 800"
+            },
+            "08": {
+                "var_type": "FIELD_INTEGER",
+                "tree_radius": "200"
             }
         }
     },

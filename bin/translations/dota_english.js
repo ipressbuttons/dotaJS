@@ -3298,7 +3298,7 @@ define({"lang": {
         "DOTA_Tooltip_ability_treant_leech_seed_radius": "RADIUS:",
         "DOTA_Tooltip_ability_treant_leech_seed_duration": "DURATION:",
         "DOTA_Tooltip_ability_treant_living_armor": "Living Armor",
-        "DOTA_Tooltip_ability_treant_living_armor_Description": "Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also grants physical damage block to heroes. Dispels when a number of damage instances are taken.",
+        "DOTA_Tooltip_ability_treant_living_armor_Description": "Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also grants physical damage block from damage from heroes. Dispels when a number of damage instances are taken.",
         "DOTA_Tooltip_ability_treant_living_armor_Lore": "The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature.",
         "DOTA_Tooltip_ability_treant_living_armor_damage_count": "DAMAGE INSTANCES:",
         "DOTA_Tooltip_ability_treant_living_armor_health_regen": "REGEN:",

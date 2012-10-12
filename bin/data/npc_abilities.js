@@ -2741,7 +2741,6 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "1300 1300 1300 1300",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0",
         "AbilityCooldown": "10.0 10.0 10.0 10.0",
-        "AbilityDamage": "75 150 225 300",
         "AbilityManaCost": "120 120 120 120",
         "AbilityModifierSupportValue": "0.25",
         "AbilitySpecial": {
@@ -2768,6 +2767,10 @@ define({"DOTAAbilities": {
             "06": {
                 "var_type": "FIELD_INTEGER",
                 "tooltip_range": "1300"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "toss_damage": "75 150 225 300"
             }
         }
     },

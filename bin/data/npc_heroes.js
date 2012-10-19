@@ -133,7 +133,7 @@ define({"DOTAHeroes": {
                 "TextureWidth": "128",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "400",
-                "MaxPolygonsLOD1": "300"
+                "MaxPolygonsLOD1": "350"
             },
             "1": {
                 "SlotIndex": "1",
@@ -142,16 +142,16 @@ define({"DOTAHeroes": {
                 "TextureWidth": "128",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "400",
-                "MaxPolygonsLOD1": "300"
+                "MaxPolygonsLOD1": "350"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "head",
                 "SlotText": "#LoadoutSlot_Head",
-                "TextureWidth": "256",
+                "TextureWidth": "128",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "300",
-                "MaxPolygonsLOD1": "200"
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "250"
             },
             "3": {
                 "SlotIndex": "3",
@@ -159,31 +159,35 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Armor",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "1200",
+                "MaxPolygonsLOD0": "1000",
                 "MaxPolygonsLOD1": "600"
             },
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "arms",
                 "SlotText": "#LoadoutSlot_Arms",
-                "TextureWidth": "256",
+                "TextureWidth": "128",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "450",
-                "MaxPolygonsLOD1": "300"
+                "MaxPolygonsLOD0": "600",
+                "MaxPolygonsLOD1": "450"
             },
             "5": {
                 "SlotIndex": "5",
                 "SlotName": "belt",
                 "SlotText": "#LoadoutSlot_Belt",
                 "TextureWidth": "256",
-                "TextureHeight": "256",
+                "TextureHeight": "128",
                 "MaxPolygonsLOD0": "450",
                 "MaxPolygonsLOD1": "300"
             },
             "6": {
                 "SlotIndex": "6",
                 "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "350"
             },
             "7": {
                 "SlotIndex": "7",
@@ -1239,22 +1243,22 @@ define({"DOTAHeroes": {
                 "item_clarity": "ITEM_CONSUMABLE | ITEM_SELLABLE",
                 "item_boots": "ITEM_CORE",
                 "item_gloves": "ITEM_CORE",
+                "item_lifesteal": "ITEM_CORE",
                 "item_boots_of_elves": "ITEM_CORE",
                 "item_power_treads": "ITEM_DERIVED",
-                "item_lifesteal": "ITEM_EXTENSION",
-                "item_helm_of_iron_will": "ITEM_EXTENSION",
+                "item_helm_of_iron_will": "ITEM_CORE",
                 "item_helm_of_the_dominator": "ITEM_DERIVED",
-                "item_ring_of_health": "ITEM_EXTENSION",
-                "item_claymore": "ITEM_EXTENSION",
-                "item_broadsword": "ITEM_EXTENSION",
-                "item_void_stone": "ITEM_EXTENSION",
+                "item_ring_of_health": "ITEM_CORE",
+                "item_claymore": "ITEM_CORE",
+                "item_broadsword": "ITEM_CORE",
+                "item_void_stone": "ITEM_CORE",
                 "item_bfury": "ITEM_DERIVED",
-                "item_reaver": "ITEM_LUXURY",
-                "item_recipe_satanic": "ITEM_LUXURY",
+                "item_reaver": "ITEM_EXTENSION",
+                "item_recipe_satanic": "ITEM_EXTENSION",
                 "item_satanic": "ITEM_DERIVED",
-                "item_ogre_axe": "ITEM_LUXURY",
-                "item_mithril_hammer": "ITEM_LUXURY",
-                "item_recipe_black_king_bar": "ITEM_LUXURY",
+                "item_ogre_axe": "ITEM_EXTENSION",
+                "item_mithril_hammer": "ITEM_EXTENSION",
+                "item_recipe_black_king_bar": "ITEM_EXTENSION",
                 "item_black_king_bar": "ITEM_DERIVED",
                 "item_quarterstaff": "ITEM_LUXURY",
                 "item_eagle": "ITEM_LUXURY",
@@ -2242,27 +2246,47 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_weapon"
+                "SlotText": "#LoadoutSlot_weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "350"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "750",
+                "MaxPolygonsLOD1": "500"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "armor",
-                "SlotText": "#LoadoutSlot_Armor"
+                "SlotText": "#LoadoutSlot_Armor",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "600",
+                "MaxPolygonsLOD1": "500"
             },
             "3": {
                 "SlotIndex": "3",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "400",
+                "MaxPolygonsLOD1": "350"
             },
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "belt",
-                "SlotText": "#LoadoutSlot_Belt"
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1200",
+                "MaxPolygonsLOD1": "700"
             },
             "5": {
                 "SlotIndex": "5",
@@ -6332,8 +6356,8 @@ define({"DOTAHeroes": {
             },
             "2": {
                 "SlotIndex": "2",
-                "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head",
+                "SlotName": "body_head",
+                "SlotText": "#LoadoutSlot_Body_Head",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "700",
@@ -7929,6 +7953,28 @@ define({"DOTAHeroes": {
             "type": "follow_origin",
             "location": "attach_hitloc"
         }}}},
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "tail",
+                "SlotText": "#LoadoutSlot_Tail"
+            }
+        },
         "Bot": {
             "Loadout": {
                 "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
@@ -8262,6 +8308,38 @@ define({"DOTAHeroes": {
             "type": "follow_origin",
             "location": "attach_hitloc"
         }}}},
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            }
+        },
         "Bot": {
             "HeroType": "DOTA_HERO_PURE_SUPPORT | DOTA_HERO_GANKER",
             "LaningInfo": {
@@ -8287,7 +8365,7 @@ define({"DOTAHeroes": {
         "Rolelevels": "2,2",
         "Team": "Bad",
         "HeroID": "56",
-        "ModelScale": ".93",
+        "ModelScale": ".65",
         "HeroGlowColor": "205 58 0",
         "CMEnabled": "1",
         "PickSound": "clinkz_clinkz_spawn_01",
@@ -10694,7 +10772,11 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "500"
             },
             "1": {
                 "SlotIndex": "1",
@@ -10704,7 +10786,11 @@ define({"DOTAHeroes": {
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "128",
+                "TextureHeight": "64",
+                "MaxPolygonsLOD0": "250",
+                "MaxPolygonsLOD1": "200"
             },
             "3": {
                 "SlotIndex": "3",
@@ -10714,27 +10800,47 @@ define({"DOTAHeroes": {
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "back",
-                "SlotText": "#LoadoutSlot_Back"
+                "SlotText": "#LoadoutSlot_Back",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1200",
+                "MaxPolygonsLOD1": "700"
             },
             "5": {
                 "SlotIndex": "5",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "300"
             },
             "6": {
                 "SlotIndex": "6",
                 "SlotName": "neck",
-                "SlotText": "#LoadoutSlot_Neck"
+                "SlotText": "#LoadoutSlot_Neck",
+                "TextureWidth": "128",
+                "TextureHeight": "64",
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "200"
             },
             "7": {
                 "SlotIndex": "7",
                 "SlotName": "armor",
-                "SlotText": "#LoadoutSlot_Armor"
+                "SlotText": "#LoadoutSlot_Armor",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "800",
+                "MaxPolygonsLOD1": "400"
             },
             "8": {
                 "SlotIndex": "8",
                 "SlotName": "offhand_weapon",
-                "SlotText": "#LoadoutSlot_OffHand_Weapon"
+                "SlotText": "#LoadoutSlot_OffHand_Weapon",
+                "TextureWidth": "128",
+                "TextureHeight": "64",
+                "MaxPolygonsLOD0": "300",
+                "MaxPolygonsLOD1": "250"
             }
         },
         "Bot": {
@@ -11996,6 +12102,7 @@ define({"DOTAHeroes": {
         "DisplayAdditionalHeroes": "1",
         "PickSound": "meepo_meepo_spawn_01",
         "BanSound": "meepo_meepo_anger_12",
+        "CMEnabled": "1",
         "Ability1": "meepo_earthbind",
         "Ability2": "meepo_poof",
         "Ability3": "meepo_geostrike",
@@ -13002,7 +13109,7 @@ define({"DOTAHeroes": {
         "Rolelevels": "2,2,1",
         "Team": "Bad",
         "HeroID": "92",
-        "ModelScale": ".79",
+        "ModelScale": ".67",
         "NameAliases": "visage",
         "url": "Visage",
         "PickSound": "visage_visa_spawn_01",
@@ -13032,7 +13139,7 @@ define({"DOTAHeroes": {
         "AttributeIntelligenceGain": "2.5",
         "MovementSpeed": "295",
         "MovementTurnRate": "0.5",
-        "HealthBarOffset": "300",
+        "HealthBarOffset": "180",
         "ParticleFile": "particles/units/heroes/hero_visage.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_visage.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_visage.txt",
@@ -13063,7 +13170,7 @@ define({"DOTAHeroes": {
             }
         }}},
         "Bot": {
-            "HeroType": "DOTA_HERO_SUPPORT",
+            "HeroType": "DOTA_HERO_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -13149,14 +13256,14 @@ define({"DOTAHeroes": {
         "Model": "models/heroes/medusa/medusa.mdl",
         "SoundSet": "Hero_Medusa",
         "HeroID": "94",
-        "Enabled": "0",
+        "Enabled": "1",
         "ForceEnable": "1",
         "HeroUnlockOrder": "0",
         "Role": "Carry",
         "Rolelevels": "3",
         "Team": "Bad",
         "Portrait": "vgui/hud/heroportraits/portrait_medusa",
-        "ModelScale": "1.0",
+        "ModelScale": "0.8",
         "NameAliases": "medusa,gorgon",
         "url": "Medusa",
         "Ability1": "medusa_split_shot",
@@ -13186,7 +13293,7 @@ define({"DOTAHeroes": {
         "MovementSpeed": "290",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
-        "HealthBarOffset": "100",
+        "HealthBarOffset": "160",
         "ParticleFile": "particles/units/heroes/hero_medusa.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_medusa.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_medusa.txt"
@@ -13280,14 +13387,26 @@ define({"DOTAHeroes": {
         "HealthBarOffset": "220",
         "ParticleFile": "particles/units/heroes/hero_centaur.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_centaur.txt",
-        "VoiceFile": "scripts/voscripts/game_sounds_vo_centaur.txt"
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_centaur.txt",
+        "Bot": {
+            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_TANK",
+            "LaningInfo": {
+                "SoloDesire": "0",
+                "RequiresBabysit": "1",
+                "ProvidesBabysit": "0",
+                "SurvivalRating": "2",
+                "RequiresFarm": "1",
+                "ProvidesSetup": "1",
+                "RequiresSetup": "1"
+            }
+        }
     },
     "npc_dota_hero_magnataur": {
         "Model": "models/heroes/magnataur/magnataur.mdl",
         "SoundSet": "Hero_Magnataur",
         "HeroID": "97",
         "Enabled": "1",
-        "ForceEnable": "1",
+        "ForceEnable": "0",
         "HeroUnlockOrder": "0",
         "Role": "Initiator,Disabler,Nuker,Carry",
         "Rolelevels": "3,1,1,1",
@@ -13298,6 +13417,7 @@ define({"DOTAHeroes": {
         "url": "Magnus",
         "PickSound": "magnataur_magn_spawn_06",
         "BanSound": "magnataur_magn_anger_07",
+        "CMEnabled": "1",
         "Ability1": "magnataur_shockwave",
         "Ability2": "magnataur_empower",
         "Ability3": "magnataur_skewer",
@@ -13320,6 +13440,13 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "2.5",
         "VisionDaytimeRange": "1800",
         "VisionNighttimeRange": "800",
+        "MovementSpeed": "315",
+        "MovementTurnRate": "0.5",
+        "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+        "HealthBarOffset": "220",
+        "ParticleFile": "particles/units/heroes/hero_magnataur.pcf",
+        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_magnataur.txt",
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_magnataur.txt",
         "ItemSlots": {
             "0": {
                 "SlotIndex": "0",
@@ -13367,12 +13494,17 @@ define({"DOTAHeroes": {
                 "MaxPolygonsLOD1": "300"
             }
         },
-        "MovementSpeed": "315",
-        "MovementTurnRate": "0.5",
-        "BoundsHullName": "DOTA_HULL_SIZE_HERO",
-        "HealthBarOffset": "220",
-        "ParticleFile": "particles/units/heroes/hero_magnataur.pcf",
-        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_magnataur.txt",
-        "VoiceFile": "scripts/voscripts/game_sounds_vo_magnataur.txt"
+        "Bot": {
+            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_TANK",
+            "LaningInfo": {
+                "SoloDesire": "0",
+                "RequiresBabysit": "1",
+                "ProvidesBabysit": "0",
+                "SurvivalRating": "2",
+                "RequiresFarm": "1",
+                "ProvidesSetup": "1",
+                "RequiresSetup": "1"
+            }
+        }
     }
 }});

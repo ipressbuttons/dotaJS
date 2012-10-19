@@ -1391,6 +1391,7 @@ define({"DOTAAbilities": {
         "ItemShopTags": "agi;int;str;armor;boost_health",
         "ItemQuality": "rare",
         "ItemAliases": "mechanism",
+        "ItemAlertable": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -1885,7 +1886,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.0",
         "AbilityCooldown": "20.0",
         "AbilityManaCost": "25",
-        "ItemCost": "2200",
+        "ItemCost": "2400",
         "ItemShopTags": "int;damage;attack_speed;hard_to_tag",
         "ItemQuality": "rare",
         "ItemAliases": "fs",
@@ -4028,6 +4029,7 @@ define({"DOTAAbilities": {
         "ItemShopTags": "move_speed;boost_mana;mana_pool",
         "ItemQuality": "rare",
         "ItemDisassemblable": "1",
+        "ItemAlertable": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -4190,6 +4192,7 @@ define({"DOTAAbilities": {
         "ItemStockTime": "720.0",
         "ItemDeclaresPurchase": "1",
         "ItemSupport": "1",
+        "ItemAlertable": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",

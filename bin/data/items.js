@@ -437,13 +437,13 @@ define({"DOTAAbilities": {
         "ID": "29",
         "AbilityName": "item_boots",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-        "ItemCost": "500",
+        "ItemCost": "450",
         "ItemShopTags": "move_speed",
         "ItemQuality": "component",
         "SideShop": "1",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "bonus_movement_speed": "55"
+            "bonus_movement_speed": "50"
         }}
     },
     "item_gem": {
@@ -883,7 +883,7 @@ define({"DOTAAbilities": {
         "AbilitySharedCooldown": "teleport",
         "AbilityChannelTime": "3.0",
         "AbilityManaCost": "75",
-        "ItemCost": "2500",
+        "ItemCost": "2450",
         "ItemShopTags": "teleport;move_speed",
         "ItemQuality": "common",
         "ItemAliases": "bot",
@@ -906,7 +906,7 @@ define({"DOTAAbilities": {
         "AbilityName": "item_phase_boots",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
         "AbilityCooldown": "8.0",
-        "ItemCost": "1400",
+        "ItemCost": "1350",
         "ItemShopTags": "damage;move_speed;hard_to_tag",
         "ItemQuality": "common",
         "AbilitySpecial": {
@@ -920,7 +920,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement_speed": "60"
+                "bonus_movement_speed": "55"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -1102,13 +1102,13 @@ define({"DOTAAbilities": {
         "ID": "63",
         "AbilityName": "item_power_treads",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-        "ItemCost": "1450",
+        "ItemCost": "1400",
         "ItemShopTags": "attack_speed;move_speed;int;agi;str",
         "ItemQuality": "common",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement_speed": "60"
+                "bonus_movement_speed": "55"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -1340,7 +1340,7 @@ define({"DOTAAbilities": {
     "item_recipe_null_talisman": {
         "ID": "76",
         "AbilityName": "item_recipe_null_talisman",
-        "ItemCost": "155",
+        "ItemCost": "145",
         "ItemShopTags": "",
         "ItemRecipe": "1",
         "ItemResult": "item_null_talisman",
@@ -1350,7 +1350,7 @@ define({"DOTAAbilities": {
         "ID": "77",
         "AbilityName": "item_null_talisman",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-        "ItemCost": "490",
+        "ItemCost": "480",
         "ItemShopTags": "damage;int;agi;str",
         "ItemQuality": "common",
         "AbilitySpecial": {
@@ -1869,11 +1869,11 @@ define({"DOTAAbilities": {
     "item_recipe_force_staff": {
         "ID": "101",
         "AbilityName": "item_recipe_force_staff",
-        "ItemCost": "500",
+        "ItemCost": "1000",
         "ItemShopTags": "",
         "ItemRecipe": "1",
         "ItemResult": "item_force_staff",
-        "ItemRequirements": {"01": "item_staff_of_wizardry;item_quarterstaff"}
+        "ItemRequirements": {"01": "item_staff_of_wizardry;item_ring_of_regen"}
     },
     "item_force_staff": {
         "ID": "102",
@@ -1886,7 +1886,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.0",
         "AbilityCooldown": "20.0",
         "AbilityManaCost": "25",
-        "ItemCost": "2400",
+        "ItemCost": "2350",
         "ItemShopTags": "int;damage;attack_speed;hard_to_tag",
         "ItemQuality": "rare",
         "ItemAliases": "fs",
@@ -1897,13 +1897,9 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage": "10"
+                "bonus_health_regen": "3"
             },
             "03": {
-                "var_type": "FIELD_INTEGER",
-                "bonus_attack_speed": "10"
-            },
-            "04": {
                 "var_type": "FIELD_INTEGER",
                 "push_length": "600"
             }
@@ -3219,7 +3215,7 @@ define({"DOTAAbilities": {
         "ID": "151",
         "AbilityName": "item_armlet",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
-        "AbilityCooldown": "1.0",
+        "AbilityCooldown": "2.0",
         "ItemCost": "2600",
         "ItemShopTags": "damage;attack_speed;armor;regen_health;hard_to_tag",
         "ItemQuality": "epic",
@@ -4025,7 +4021,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCooldown": "55.0",
         "AbilityManaCost": "25",
-        "ItemCost": "1500",
+        "ItemCost": "1450",
         "ItemShopTags": "move_speed;boost_mana;mana_pool",
         "ItemQuality": "rare",
         "ItemDisassemblable": "1",
@@ -4033,7 +4029,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement": "65"
+                "bonus_movement": "60"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -4276,7 +4272,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityCooldown": "16",
-        "AbilityCastRange": "800",
+        "AbilityCastRange": "1200",
         "AbilityCastPoint": "0.0",
         "AbilityManaCost": "50",
         "ItemCost": "3100",
@@ -4293,7 +4289,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "slow": "50"
+                "slow": "60"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -4485,14 +4481,14 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
         "AbilityCooldown": "40.0",
         "AbilityManaCost": "25",
-        "ItemCost": "1025",
+        "ItemCost": "975",
         "ItemShopTags": "move_speed;regen_health;armor",
         "ItemQuality": "rare",
         "ItemDisassemblable": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_movement_speed": "80"
+                "bonus_movement_speed": "75"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -4543,7 +4539,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "fade_time": "2.75"
+                "fade_time": "2.6"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",

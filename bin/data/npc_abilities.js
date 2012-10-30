@@ -525,7 +525,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "375"
+                "radius": "400"
             }
         }
     },
@@ -9161,7 +9161,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.3",
         "AbilityCastRange": "900",
         "AbilityCooldown": "36.0 28.0 20.0 12.0",
-        "AbilityManaCost": "100",
+        "AbilityManaCost": "115",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -10283,8 +10283,8 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
         "AbilityCastRange": "0",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "20.0 20.0 20.0 20.0",
-        "AbilityManaCost": "30 35 40 45",
+        "AbilityCooldown": "15.0",
+        "AbilityManaCost": "25",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -10300,7 +10300,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "20.0 20.0 20.0 20.0"
+                "duration": "15.0"
             }
         }
     },
@@ -12167,20 +12167,20 @@ define({"DOTAAbilities": {
         "AbilityName": "centaur_stampede",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
-        "AbilityCooldown": "65.0 65.0 65.0",
-        "AbilityManaCost": "50 50 50",
+        "AbilityCooldown": "120.0 90.0 60.0",
+        "AbilityManaCost": "80",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "3.0 4.0 5.0"
+                "duration": "3.75"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "base_damage": "100 150 200"
+                "base_damage": "0"
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "strength_damage": "2.0 2.0 2.0"
+                "strength_damage": "1.0 2.0 3.0"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -12188,7 +12188,7 @@ define({"DOTAAbilities": {
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
-                "radius": "120 120 120"
+                "radius": "105"
             }
         }
     },

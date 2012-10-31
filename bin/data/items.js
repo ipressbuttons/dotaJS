@@ -4485,6 +4485,7 @@ define({"DOTAAbilities": {
         "ItemShopTags": "move_speed;regen_health;armor",
         "ItemQuality": "rare",
         "ItemDisassemblable": "1",
+        "ItemHideCharges": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -4524,7 +4525,7 @@ define({"DOTAAbilities": {
             },
             "10": {
                 "var_type": "FIELD_INTEGER",
-                "broken_movement_speed": "55"
+                "broken_movement_speed": "50"
             }
         }
     },
@@ -4546,5 +4547,285 @@ define({"DOTAAbilities": {
                 "bonus_attack_speed": "30"
             }
         }
+    },
+    "item_halloween_candy_corn": {
+        "ID": "216",
+        "AbilityName": "item_halloween_candy_corn",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY | DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+        "Model": "models/props_gameplay/halloween_candy.mdl",
+        "UIPickupSound": "Item.PickUpGemShop",
+        "UIDropSound": "Item.DropGemShop",
+        "WorldDropSound": "Item.DropGemWorld",
+        "AbilityCastRange": "350",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {}
+    },
+    "item_mystery_hook": {
+        "ID": "217",
+        "AbilityName": "item_mystery_hook",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastRange": "1300",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "11.0",
+        "AbilityDamage": "360",
+        "AbilityManaCost": "140",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "hook_speed": "1600.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "hook_width": "100"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "hook_distance": "1300"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "vision_radius": "500"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "vision_duration": "4.0"
+            }
+        }
+    },
+    "item_mystery_arrow": {
+        "ID": "218",
+        "AbilityName": "item_mystery_arrow",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "3000",
+        "AbilityCastPoint": "0.5",
+        "AbilityCooldown": "2.0",
+        "AbilityDuration": "3.11",
+        "AbilityDamage": "360",
+        "AbilityManaCost": "0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "arrow_speed": "857.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "arrow_width": "115"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "arrow_range": "3000"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "arrow_max_stunrange": "1500"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "arrow_min_stun": "0.5"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "arrow_max_stun": "5.0"
+            }
+        }
+    },
+    "item_mystery_missile": {
+        "ID": "219",
+        "AbilityName": "item_mystery_missile",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "1050",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "20.0",
+        "AbilityManaCost": "0",
+        "AbilityDamage": "440",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "stun_duration": "2.5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "attack_speed_bonus_pct": "400"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "min_damage": "50"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "max_distance": "2000"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "pre_flight_time": "3"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "hero_damage": "34"
+            },
+            "07": {
+                "var_type": "FIELD_FLOAT",
+                "speed": "340"
+            },
+            "08": {
+                "var_type": "FIELD_INTEGER",
+                "acceleration": "20"
+            },
+            "09": {
+                "var_type": "FIELD_INTEGER",
+                "enemy_vision_time": "4"
+            }
+        }
+    },
+    "item_mystery_toss": {
+        "ID": "220",
+        "AbilityName": "item_mystery_toss",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "1300",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "2.0",
+        "AbilityDamage": "300",
+        "AbilityManaCost": "0",
+        "AbilityModifierSupportValue": "0.25",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "duration": "1.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "grab_radius": "250"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "275"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage_pct": "20"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "grow_bonus_damage_pct": "80"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "tooltip_range": "1300"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "toss_damage": "300"
+            }
+        }
+    },
+    "item_mystery_vacuum": {
+        "ID": "221",
+        "AbilityName": "item_mystery_vacuum",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "500",
+        "AbilityCastPoint": "0.4",
+        "AbilityCooldown": "2.0",
+        "AbilityManaCost": "0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "550"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "0.4"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "damage": "160"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "radius_tree": "275"
+            }
+        }
+    },
+    "item_halloween_rapier": {
+        "ID": "226",
+        "AbilityName": "item_halloween_rapier",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "ItemCost": "6200",
+        "ItemShopTags": "damage",
+        "ItemQuality": "epic",
+        "ItemShareability": "ITEM_NOT_SHAREABLE",
+        "ItemSellable": "0",
+        "ItemKillable": "0",
+        "ItemPurchasable": "0",
+        "ItemInitialCharges": "3",
+        "ItemPermanent": "0",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "bonus_damage": "100"
+        }}
     }
 }});

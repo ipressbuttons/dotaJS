@@ -84,6 +84,7 @@ define({"DOTAHeroes": {
     "npc_dota_hero_antimage": {
         "Model": "models/heroes/antimage/antimage.mdl",
         "SoundSet": "Hero_Antimage",
+        "IdleExpression": "scenes/antimage/antimage_exp_idle_01.vcd",
         "HeroID": "1",
         "Enabled": "1",
         "HeroUnlockOrder": "1",
@@ -4044,6 +4045,33 @@ define({"DOTAHeroes": {
         "VoiceFile": "scripts/voscripts/game_sounds_vo_lion.txt",
         "ParticleFile": "particles/units/heroes/hero_lion.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_lion.txt",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder"
+            }
+        },
         "Bot": {
             "AutoPurchase": {
                 "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
@@ -12547,6 +12575,7 @@ define({"DOTAHeroes": {
         "AttributeIntelligenceGain": "2.4",
         "MovementSpeed": "290",
         "MovementTurnRate": "0.5",
+        "HealthBarOffset": "170",
         "ParticleFile": "particles/units/heroes/hero_rubick.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_rubick.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_rubick.txt",
@@ -13397,7 +13426,7 @@ define({"DOTAHeroes": {
         "Portrait": "vgui/hud/heroportraits/portrait_troll_warlord",
         "ModelScale": "1.0",
         "NameAliases": "troll,jahrakal",
-        "url": "Troll Warlord",
+        "url": "Troll_Warlord",
         "Ability1": "troll_warlord_berserkers_rage",
         "Ability2": "troll_warlord_whirling_axes_ranged",
         "Ability3": "troll_warlord_whirling_axes_melee",
@@ -13445,9 +13474,9 @@ define({"DOTAHeroes": {
         "Portrait": "vgui/hud/heroportraits/portrait_centaur",
         "ModelScale": ".74",
         "NameAliases": "centaur",
-        "url": "Centaur Warchief",
         "PickSound": "centaur_cent_spawn_01",
         "BanSound": "centaur_cent_anger_03",
+        "url": "Centaur_Warrunner",
         "Ability1": "centaur_hoof_stomp",
         "Ability2": "centaur_double_edge",
         "Ability3": "centaur_return",

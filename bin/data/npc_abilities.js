@@ -1939,6 +1939,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "AbilityCastRange": "550",
+        "AbilityCastPoint": "0.3",
         "AbilityCooldown": "110.0 110.0 110.0",
         "AbilityManaCost": "200 350 600",
         "AbilitySpecial": {
@@ -13165,6 +13166,197 @@ define({"DOTAAbilities": {
             "02": {
                 "var_type": "FIELD_INTEGER",
                 "radius": "900"
+            }
+        }
+    },
+    "roshan_halloween_candy": {
+        "ID": "9990",
+        "AbilityName": "roshan_halloween_candy",
+        "MaxLevel": "1",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_movement": "20"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_health": "500"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage": "10"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_armor": "2"
+            }
+        }
+    },
+    "roshan_halloween_angry": {
+        "ID": "9991",
+        "AbilityName": "roshan_halloween_angry",
+        "MaxLevel": "1",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_movement": "20"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_health": "500"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage": "20"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_armor": "2"
+            }
+        }
+    },
+    "roshan_halloween_wave_of_force": {
+        "ID": "9993",
+        "AbilityName": "roshan_halloween_wave_of_force",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "MaxLevel": "1",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "3.0",
+        "AbilityCooldown": "12.0",
+        "AbilityDamage": "600",
+        "AbilityManaCost": "150",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "800"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "speed": "775"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "2.0"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "mana_burn": "50"
+            }
+        }
+    },
+    "roshan_halloween_greater_bash": {
+        "ID": "9994",
+        "AbilityName": "roshan_halloween_greater_bash",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "MaxLevel": "1",
+        "AbilityCooldown": "1.5",
+        "AbilityModifierSupportBonus": "40",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "chance_pct": "25"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "duration": ".35"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "knockback_duration": ".25"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "knockback_distance": "500"
+            }
+        }
+    },
+    "roshan_halloween_toss": {
+        "ID": "9995",
+        "AbilityName": "roshan_halloween_toss",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "MaxLevel": "1",
+        "AbilityCastRange": "1300",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "5.0",
+        "AbilityManaCost": "120",
+        "AbilityModifierSupportValue": "0.25",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "duration": "1.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "grab_radius": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "275"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage_pct": "20"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "grow_bonus_damage_pct": "35"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "tooltip_range": "1300"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "toss_damage": "500"
+            }
+        }
+    },
+    "roshan_halloween_shell": {
+        "ID": "9997",
+        "AbilityName": "roshan_halloween_shell",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "MaxLevel": "1",
+        "AbilityCooldown": "45.0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_spell_damage_pct": "300"
+            }
+        }
+    },
+    "roshan_halloween_apocalypse": {
+        "ID": "9998",
+        "AbilityName": "roshan_halloween_apocalypse",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "MaxLevel": "1",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "1.0",
+        "AbilityCooldown": "20.0",
+        "AbilityManaCost": "150",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "area_of_effect": "200"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "delay": "2.0"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "damage": "3000.0"
             }
         }
     }

@@ -5584,7 +5584,7 @@ define({"lang": {
         "dota_play_welcome_text": "Thank you for participating, your feedback\nwill help make Dota 2 better. ",
         "dota_play_diretide_tab": "FIND DIRETIDE MATCH",
         "sugar_rush_hof": "SUGAR RUSH HALL OF FAME",
-        "sugar_rush_hof_label": "These players killed Roshan in the shortest time ever on %s1 at %s2",
+        "sugar_rush_hof_label": "These players killed Roshan in the shortest time during Cycle %s3 on %s1 at %s2",
         "findmatchhalloween": "FIND DIRETIDE MATCH",
         "dota_play_diretide_phase_1_title": "CANDY CHAOS",
         "dota_play_diretide_phase_1_descr": "* Compete against the enemy team in collecting the most candy.\n* Collect candy from Roshlings and deposit it in your Candy Bucket.\n* Go on a raid and steal the enemy's candy from their bucket.\n * When the timer expires the team with the most candy wins!",

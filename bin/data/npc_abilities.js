@@ -13227,7 +13227,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "3.0",
         "AbilityCooldown": "12.0",
         "AbilityDamage": "600",
-        "AbilityManaCost": "150",
+        "AbilityManaCost": "0",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -13254,7 +13254,6 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "MaxLevel": "1",
         "AbilityCooldown": "1.5",
-        "AbilityModifierSupportBonus": "40",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -13285,8 +13284,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "1300",
         "AbilityCastPoint": "0.0",
         "AbilityCooldown": "5.0",
-        "AbilityManaCost": "120",
-        "AbilityModifierSupportValue": "0.25",
+        "AbilityManaCost": "0",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -13344,7 +13342,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "0",
         "AbilityCastPoint": "1.0",
         "AbilityCooldown": "20.0",
-        "AbilityManaCost": "150",
+        "AbilityManaCost": "0",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",

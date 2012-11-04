@@ -4570,6 +4570,9 @@ define({"DOTAAbilities": {
         "ItemPermanent": "0",
         "ItemInitialCharges": "1",
         "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
         "AbilitySpecial": {}
     },
     "item_mystery_hook": {

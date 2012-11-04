@@ -13357,5 +13357,39 @@ define({"DOTAAbilities": {
                 "damage": "3000.0"
             }
         }
+    },
+    "roshan_halloween_burn": {
+        "ID": "9999",
+        "AbilityName": "roshan_halloween_burn",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "MaxLevel": "1",
+        "AbilityCooldown": "30.0",
+        "AbilityChannelTime": "3.0",
+        "AbilityCastRange": "800",
+        "AbilityCastPoint": "1.5",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "radius": "200.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "speed": "1000"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "damage": "1000.0"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "rotation_angle": "90.0"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "projectile_count": "20"
+            }
+        }
     }
 }});

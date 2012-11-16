@@ -11767,6 +11767,7 @@ define({"DOTAAbilities": {
         "ID": "5494",
         "AbilityName": "slark_dark_pact",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0.001 0.001 0.001 0.001",
         "AbilityCastRange": "325",
         "AbilityCooldown": "9.0 8.0 7.0 6.0",
@@ -11802,6 +11803,7 @@ define({"DOTAAbilities": {
         "ID": "5495",
         "AbilityName": "slark_pounce",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCooldown": "20.0 16.0 12.0 8.0",
         "AbilityManaCost": "75 75 75 75",
         "AbilitySpecial": {
@@ -11869,7 +11871,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "fade_time": "0.7 0.7 0.7"
+                "fade_time": "0.0 0.0 0.0"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -12111,9 +12113,9 @@ define({"DOTAAbilities": {
         "ID": "5512",
         "AbilityName": "troll_warlord_battle_trance",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
         "MaxLevel": "3",
-        "AbilityCastPoint": "0.51 0.51 0.51",
+        "AbilityCastPoint": "0.0 0.0 0.0",
         "AbilityCooldown": "20.0 20.0 20.0",
         "AbilityManaCost": "75 75 75",
         "AbilitySpecial": {
@@ -12353,6 +12355,141 @@ define({"DOTAAbilities": {
                 "creep_stun_duration": "3.0 4.0 5.0"
             }
         }
+    },
+    "shredder_whirling_death": {
+        "ID": "5524",
+        "AbilityName": "shredder_whirling_death",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "0 0 0 0",
+        "AbilityCooldown": "8.0 8.0 8.0 8.0",
+        "AbilityManaCost": "70 80 90 100",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "7.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "whirling_radius": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "whirling_damage": "100 150 200 250"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "whirling_tick": "0.3"
+            }
+        }
+    },
+    "shredder_timber_chain": {
+        "ID": "5525",
+        "AbilityName": "shredder_timber_chain",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCastRange": "800 1000 1200 1400",
+        "AbilityCooldown": "4.0 4.0 4.0 4.0",
+        "AbilityManaCost": "60 70 80 90",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "chain_radius": "90 90 90 90"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "range": "800 1000 1200 1400"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "damage_radius": "225 225 225 225"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "speed": "2000"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "damage": "100 140 180 220"
+            }
+        }
+    },
+    "shredder_reactive_armor": {
+        "ID": "5526",
+        "AbilityName": "shredder_reactive_armor",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_armor": "1"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_hp_regen": "1"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "stack_limit": "4 8 12 16"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "stack_duration": "16.0 16.0 16.0 16.0"
+            }
+        }
+    },
+    "shredder_chakram": {
+        "ID": "5527",
+        "AbilityName": "shredder_chakram",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastRange": "1200 1200 1200",
+        "AbilityCastPoint": "0.3 0.3 0.3",
+        "AbilityCooldown": "8.0 8.0 8.0",
+        "AbilityManaCost": "125 150 175",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "speed": "800.0"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "radius": "200.0"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "pass_damage": "100 140 180"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "damage_per_second": "50 75 100"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "slow": "5"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "damage_interval": "1.0"
+            },
+            "07": {
+                "var_type": "FIELD_FLOAT",
+                "break_distance": "2000.0"
+            },
+            "08": {
+                "var_type": "FIELD_FLOAT",
+                "mana_per_second": "20.0 25.0 30.0"
+            }
+        }
+    },
+    "shredder_return_chakram": {
+        "ID": "5528",
+        "AbilityName": "shredder_return_chakram",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0"
     },
     "backdoor_protection": {
         "ID": "5350",
@@ -13391,7 +13528,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "MaxLevel": "1",
         "AbilityCooldown": "30.0",
-        "AbilityChannelTime": "3.0",
+        "AbilityChannelTime": "2.5",
         "AbilityCastRange": "800",
         "AbilityCastPoint": "1.5",
         "AbilityManaCost": "0",

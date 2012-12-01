@@ -12001,6 +12001,14 @@ define({"DOTAAbilities": {
             "04": {
                 "var_type": "FIELD_INTEGER",
                 "slow": "100 100 100"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "purge_rate": "3 3 3"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "vision_cone": "0.2588"
             }
         }
     },
@@ -12091,6 +12099,44 @@ define({"DOTAAbilities": {
             "08": {
                 "var_type": "FIELD_INTEGER",
                 "axe_count": "5"
+            }
+        }
+    },
+    "troll_warlord_whirling_axes_melee": {
+        "ID": "5510",
+        "AbilityName": "troll_warlord_whirling_axes_melee",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+        "AbilityCooldown": "12.0 12.0 12.0 12.0",
+        "AbilityManaCost": "50 50 50 50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "damage": "125 175 225 275"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "hit_radius": "100"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "max_range": "300"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "axe_movement_speed": "1000"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "blind_duration": "4.0 5.0 6.0 7.0"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "blind_pct": "60 60 60 60"
+            },
+            "07": {
+                "var_type": "FIELD_FLOAT",
+                "whirl_duration": "2.0"
             }
         }
     },
@@ -12381,6 +12427,10 @@ define({"DOTAAbilities": {
             "04": {
                 "var_type": "FIELD_FLOAT",
                 "whirling_tick": "0.3"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "stat_loss_pct": "15"
             }
         }
     },
@@ -12408,7 +12458,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "speed": "2000"
+                "speed": "3000"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
@@ -12490,6 +12540,126 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0"
+    },
+    "bristleback_viscous_nasal_goo": {
+        "ID": "5548",
+        "AbilityName": "bristleback_viscous_nasal_goo",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+        "AbilityCooldown": "1.5 1.5 1.5 1.5",
+        "AbilityManaCost": "30 30 30 30",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "goo_speed": "1250"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "goo_duration": "5.0"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "armor_per_stack": "1 1 2 2"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "base_move_slow": "20"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "move_slow_per_stack": "3 6 9 12"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "stack_limit": "4"
+            }
+        }
+    },
+    "bristleback_quill_spray": {
+        "ID": "5549",
+        "AbilityName": "bristleback_quill_spray",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+        "AbilityCastRange": "625",
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+        "AbilityCooldown": "3.0 3.0 3.0 3.0",
+        "AbilityManaCost": "35 35 35 35",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "625"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "quill_base_damage": "20.0 40.0 60.0 80.0"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "quill_stack_damage": "20.0 40.0 60.0 80.0"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "quill_stack_duration": "10.0"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "max_damage": "400.0"
+            }
+        }
+    },
+    "bristleback_bristleback": {
+        "ID": "5550",
+        "AbilityName": "bristleback_bristleback",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "side_damage_reduction": "8 12 16 20"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "back_damage_reduction": "16 24 32 40"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "side_angle": "110"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "back_angle": "70"
+            }
+        }
+    },
+    "bristleback_warpath": {
+        "ID": "5551",
+        "AbilityName": "bristleback_warpath",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "base_damage": "20 25 30"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "damage_per_stack": "20 25 30"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "base_move_speed": "5 7 10"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "move_speed_per_stack": "1 2 3"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "stack_duration": "10.0 10.0 10.0"
+            }
+        }
     },
     "backdoor_protection": {
         "ID": "5350",

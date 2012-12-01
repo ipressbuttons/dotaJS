@@ -198,7 +198,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "2",
@@ -352,7 +352,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK",
+            "HeroType": "DOTA_BOT_TANK",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -481,7 +481,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "1",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_GANKER"
+            "HeroType": "DOTA_BOT_GANKER"
         }
     },
     "npc_dota_hero_bloodseeker": {
@@ -640,7 +640,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "1",
@@ -837,7 +837,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "1",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "AggressionFactor": "0.8"
         }
     },
@@ -942,7 +942,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -1126,7 +1126,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "2",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_juggernaut": {
@@ -1309,7 +1309,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "0",
                 "RequiresSetup": "2"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY"
+            "HeroType": "DOTA_BOT_HARD_CARRY"
         }
     },
     "npc_dota_hero_mirana": {
@@ -1414,7 +1414,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -1545,7 +1545,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "1",
@@ -1727,7 +1727,7 @@ define({"DOTAHeroes": {
                 "24": "morphling_morph_agi",
                 "25": "morphling_morph_agi"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -1833,7 +1833,7 @@ define({"DOTAHeroes": {
         },
         "Bot": {
             "Loadout": {"1": "item_blades_of_attack"},
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -1990,7 +1990,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -2180,7 +2180,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -2405,7 +2405,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "0",
                 "RequiresSetup": "1"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY"
+            "HeroType": "DOTA_BOT_HARD_CARRY"
         }
     },
     "npc_dota_hero_sand_king": {
@@ -2555,7 +2555,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -2730,7 +2730,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMICARRY",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMICARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -2930,7 +2930,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "2",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_tiny": {
@@ -3053,7 +3053,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "2",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_vengefulspirit": {
@@ -3177,7 +3177,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "2",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_windrunner": {
@@ -3306,8 +3306,8 @@ define({"DOTAHeroes": {
                 "item_ultimate_scepter": "ITEM_DERIVED"
             },
             "Build": {
-                "1": "windrunner_shackleshot",
-                "2": "windrunner_windrun",
+                "1": "windrunner_windrun",
+                "2": "windrunner_shackleshot",
                 "3": "windrunner_powershot",
                 "4": "windrunner_powershot",
                 "5": "windrunner_powershot",
@@ -3341,7 +3341,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "1",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_zuus": {
@@ -3457,7 +3457,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "0",
                 "RequiresSetup": "1"
             },
-            "HeroType": "DOTA_HERO_GANKER"
+            "HeroType": "DOTA_BOT_GANKER"
         }
     },
     "npc_dota_hero_kunkka": {
@@ -3509,8 +3509,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Weapon",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "500",
-                "MaxPolygonsLOD1": "350"
+                "MaxPolygonsLOD0": "600",
+                "MaxPolygonsLOD1": "450"
             },
             "1": {
                 "SlotIndex": "1",
@@ -3527,8 +3527,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Legs",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "500",
-                "MaxPolygonsLOD1": "300"
+                "MaxPolygonsLOD0": "550",
+                "MaxPolygonsLOD1": "350"
             },
             "3": {
                 "SlotIndex": "3",
@@ -3536,8 +3536,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Gloves",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "500",
-                "MaxPolygonsLOD1": "300"
+                "MaxPolygonsLOD0": "800",
+                "MaxPolygonsLOD1": "550"
             },
             "4": {
                 "SlotIndex": "4",
@@ -3554,8 +3554,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_shoulder",
                 "TextureWidth": "256",
                 "TextureHeight": "256",
-                "MaxPolygonsLOD0": "1800",
-                "MaxPolygonsLOD1": "1200"
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "400"
             },
             "6": {
                 "SlotIndex": "6",
@@ -3572,8 +3572,8 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Belt",
                 "TextureWidth": "256",
                 "TextureHeight": "128",
-                "MaxPolygonsLOD0": "350",
-                "MaxPolygonsLOD1": "250"
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "350"
             }
         },
         "ParticleFile": "particles/units/heroes/hero_kunkka.pcf",
@@ -3660,7 +3660,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "1",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_PUSH_SUPPORT"
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_PUSH_SUPPORT"
         }
     },
     "npc_dota_hero_lina": {
@@ -3838,7 +3838,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "0",
                 "RequiresSetup": "2"
             },
-            "HeroType": "DOTA_HERO_GANKER"
+            "HeroType": "DOTA_BOT_GANKER"
         }
     },
     "npc_dota_hero_lich": {
@@ -4020,7 +4020,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -4083,27 +4083,47 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1000",
+                "MaxPolygonsLOD1": "450"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "128",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "300"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "arms",
-                "SlotText": "#LoadoutSlot_Arms"
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "850",
+                "MaxPolygonsLOD1": "450"
             },
             "3": {
                 "SlotIndex": "3",
                 "SlotName": "back",
-                "SlotText": "#LoadoutSlot_Back"
+                "SlotText": "#LoadoutSlot_Back",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "350"
             },
             "4": {
                 "SlotIndex": "4",
                 "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "128",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "300"
             }
         },
         "Bot": {
@@ -4179,7 +4199,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -4360,7 +4380,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_STUN_SUPPORT | DOTA_HERO_PUSH_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT | DOTA_BOT_PUSH_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -4515,7 +4535,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_GANKER | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "1",
@@ -4715,7 +4735,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "1",
                 "RequiresSetup": "0"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_STUN_SUPPORT"
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_STUN_SUPPORT"
         }
     },
     "npc_dota_hero_witch_doctor": {
@@ -4876,7 +4896,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -5048,7 +5068,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_HARD_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -5190,7 +5210,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -5299,7 +5319,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_PUSH_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_PUSH_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -5506,7 +5526,7 @@ define({"DOTAHeroes": {
                 "ProvidesSetup": "0",
                 "RequiresSetup": "1"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY"
+            "HeroType": "DOTA_BOT_HARD_CARRY"
         }
     },
     "npc_dota_hero_necrolyte": {
@@ -5676,7 +5696,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -5866,7 +5886,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_SUPPORT | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_SUPPORT | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -6066,7 +6086,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_TANK",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_TANK",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -6166,7 +6186,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -6360,7 +6380,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -6524,7 +6544,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -6713,7 +6733,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -6933,7 +6953,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -7064,7 +7084,7 @@ define({"DOTAHeroes": {
                 "item_talisman_of_evasion": "ITEM_EXTENSION",
                 "item_butterfly": "ITEM_DERIVED"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -7204,7 +7224,7 @@ define({"DOTAHeroes": {
             }
         }},
         "Bot": {
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -7322,7 +7342,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -7445,7 +7465,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -7568,7 +7588,7 @@ define({"DOTAHeroes": {
                 "24": "luna_lunar_blessing",
                 "25": "luna_lunar_blessing"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -7692,7 +7712,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -7919,7 +7939,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -7977,7 +7997,7 @@ define({"DOTAHeroes": {
         "ParticleFile": "particles/units/heroes/hero_rattletrap.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_rattletrap.txt",
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "1",
@@ -8041,23 +8061,39 @@ define({"DOTAHeroes": {
         "ItemSlots": {
             "0": {
                 "SlotIndex": "0",
-                "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotName": "misc",
+                "SlotText": "#LoadoutSlot_Misc",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "300"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1000",
+                "MaxPolygonsLOD1": "550"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "back",
-                "SlotText": "#LoadoutSlot_Back"
+                "SlotText": "#LoadoutSlot_Back",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1000",
+                "MaxPolygonsLOD1": "650"
             },
             "3": {
                 "SlotIndex": "3",
                 "SlotName": "tail",
-                "SlotText": "#LoadoutSlot_Tail"
+                "SlotText": "#LoadoutSlot_Tail",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "350",
+                "MaxPolygonsLOD1": "200"
             }
         },
         "Bot": {
@@ -8085,7 +8121,7 @@ define({"DOTAHeroes": {
                 "item_sheepstick": "ITEM_DERIVED"
             },
             "Build": {},
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_PUSH_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_PUSH_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -8211,7 +8247,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -8333,7 +8369,7 @@ define({"DOTAHeroes": {
                 "item_satanic": "ITEM_DERIVED"
             },
             "Build": {},
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -8446,7 +8482,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_PURE_SUPPORT | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -8567,7 +8603,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -8685,7 +8721,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -8796,7 +8832,7 @@ define({"DOTAHeroes": {
         "ParticleFile": "particles/units/heroes/hero_enchantress.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_enchantress.txt",
         "Bot": {
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -8960,7 +8996,7 @@ define({"DOTAHeroes": {
                 "item_recipe_heart": "ITEM_LUXURY",
                 "item_heart": "ITEM_DERIVED"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -9075,7 +9111,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "1",
@@ -9192,7 +9228,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -9318,7 +9354,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -9427,7 +9463,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "1",
@@ -9579,7 +9615,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PUSH_SUPPORT",
+            "HeroType": "DOTA_BOT_PUSH_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -9719,7 +9755,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -9911,7 +9947,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -10069,7 +10105,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -10255,7 +10291,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -10373,7 +10409,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -10518,7 +10554,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -10709,7 +10745,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -10832,7 +10868,7 @@ define({"DOTAHeroes": {
                 "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE"
             },
             "Build": {},
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -11019,7 +11055,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY | DOTA_HERO_STUN_SUPPORT",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -11147,7 +11183,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -11309,7 +11345,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_PURE_SUPPORT | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_PURE_SUPPORT | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -11470,7 +11506,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "2",
                 "RequiresBabysit": "0",
@@ -11597,7 +11633,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -11725,7 +11761,7 @@ define({"DOTAHeroes": {
                 "item_mystic_staff": "ITEM_EXTENSION",
                 "item_sheepstick": "ITEM_DERIVED"
             },
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -11878,7 +11914,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -12007,7 +12043,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "2",
@@ -12196,7 +12232,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "2",
@@ -12211,6 +12247,7 @@ define({"DOTAHeroes": {
     "npc_dota_hero_meepo": {
         "Model": "models/heroes/meepo/meepo.mdl",
         "Portrait": "vgui/hud/heroportraits/portrait_chaos_knight",
+        "IdleExpression": "scenes/meepo/meepo_exp_idle_01.vcd",
         "SoundSet": "Hero_Meepo",
         "Enabled": "1",
         "HeroUnlockOrder": "3",
@@ -12315,7 +12352,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -12408,7 +12445,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_STUN_SUPPORT | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_STUN_SUPPORT | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -12521,7 +12558,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -12587,7 +12624,7 @@ define({"DOTAHeroes": {
             "SlotText": "#LoadoutSlot_Weapon"
         }},
         "Bot": {
-            "HeroType": "DOTA_HERO_TANK | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -12658,21 +12695,33 @@ define({"DOTAHeroes": {
             "0": {
                 "SlotIndex": "0",
                 "SlotName": "weapon",
-                "SlotText": "#LoadoutSlot_Weapon"
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "650",
+                "MaxPolygonsLOD1": "400"
             },
             "1": {
                 "SlotIndex": "1",
                 "SlotName": "shoulder",
-                "SlotText": "#LoadoutSlot_Shoulder"
+                "SlotText": "#LoadoutSlot_Shoulder",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "900",
+                "MaxPolygonsLOD1": "550"
             },
             "2": {
                 "SlotIndex": "2",
                 "SlotName": "back",
-                "SlotText": "#LoadoutSlot_Back"
+                "SlotText": "#LoadoutSlot_Back",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "1300",
+                "MaxPolygonsLOD1": "950"
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -12804,7 +12853,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_SUPPORT | DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_SUPPORT | DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -12898,7 +12947,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "0",
@@ -12962,7 +13011,7 @@ define({"DOTAHeroes": {
             "location": "attach_lamp"
         }}}},
         "Bot": {
-            "HeroType": "DOTA_HERO_GANKER | DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -13176,7 +13225,7 @@ define({"DOTAHeroes": {
                 "24": "attribute_bonus",
                 "25": "attribute_bonus"
             },
-            "HeroType": "DOTA_HERO_GANKER",
+            "HeroType": "DOTA_BOT_GANKER",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -13254,7 +13303,7 @@ define({"DOTAHeroes": {
             "SlotText": "#LoadoutSlot_Weapon"
         }},
         "Bot": {
-            "HeroType": "DOTA_HERO_SUPPORT",
+            "HeroType": "DOTA_BOT_SUPPORT",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -13338,7 +13387,7 @@ define({"DOTAHeroes": {
             }
         }}},
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY",
+            "HeroType": "DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "0",
@@ -13357,7 +13406,6 @@ define({"DOTAHeroes": {
         "IdleSoundLoop": "Hero_Slark.IdleLoop",
         "HeroID": "93",
         "Enabled": "1",
-        "ForceEnable": "1",
         "HeroUnlockOrder": "0",
         "Role": "Escape",
         "Rolelevels": "3",
@@ -13427,7 +13475,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_HARD_CARRY",
+            "HeroType": "DOTA_BOT_HARD_CARRY",
             "LaningInfo": {
                 "SoloDesire": "1",
                 "RequiresBabysit": "2",
@@ -13491,7 +13539,7 @@ define({"DOTAHeroes": {
         "Model": "models/heroes/troll_warlord/troll_warlord.mdl",
         "SoundSet": "Hero_TrollWarlord",
         "HeroID": "95",
-        "Enabled": "0",
+        "Enabled": "1",
         "ForceEnable": "1",
         "HeroUnlockOrder": "0",
         "Role": "Carry",
@@ -13501,6 +13549,8 @@ define({"DOTAHeroes": {
         "ModelScale": ".85",
         "NameAliases": "troll,jahrakal",
         "url": "Troll_Warlord",
+        "PickSound": "troll_warlord_troll_spawn_01",
+        "BanSound": "troll_warlord_troll_anger_01",
         "Ability1": "troll_warlord_berserkers_rage",
         "Ability2": "troll_warlord_whirling_axes_ranged",
         "Ability3": "troll_warlord_whirling_axes_melee",
@@ -13654,7 +13704,7 @@ define({"DOTAHeroes": {
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_centaur.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_centaur.txt",
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_TANK",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_TANK",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -13824,7 +13874,7 @@ define({"DOTAHeroes": {
             }
         },
         "Bot": {
-            "HeroType": "DOTA_HERO_SEMI_CARRY | DOTA_HERO_TANK",
+            "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_TANK",
             "LaningInfo": {
                 "SoloDesire": "0",
                 "RequiresBabysit": "1",
@@ -13841,12 +13891,13 @@ define({"DOTAHeroes": {
         "Portrait": "vgui/hud/heroportraits/portrait_shredder",
         "SoundSet": "Hero_Shredder",
         "IdleSoundLoop": "Hero_Shredder.IdleLoop",
-        "Enabled": "0",
+        "Enabled": "1",
+        "ForceEnabled": "1",
         "Role": "Ganker,Initiator,Durable",
         "Rolelevels": "2,1,1",
         "Team": "Good",
         "HeroID": "98",
-        "ModelScale": "1",
+        "ModelScale": ".825",
         "NameAliases": "Rizzrack",
         "url": "Shredder",
         "Ability1": "shredder_whirling_death",
@@ -13873,7 +13924,7 @@ define({"DOTAHeroes": {
         "MovementSpeed": "290",
         "MovementTurnRate": "0.6",
         "HealthBarOffset": "250",
-        "ParticleFile": "particles/units/heroes/hero_undying.pcf",
+        "ParticleFile": "particles/units/heroes/hero_shredder.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_undying.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_undying.txt"
     }

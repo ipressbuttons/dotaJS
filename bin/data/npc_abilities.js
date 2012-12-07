@@ -12522,7 +12522,7 @@ define({"DOTAAbilities": {
             },
             "06": {
                 "var_type": "FIELD_FLOAT",
-                "damage_interval": "1.0"
+                "damage_interval": "0.5"
             },
             "07": {
                 "var_type": "FIELD_FLOAT",

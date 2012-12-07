@@ -2977,7 +2977,6 @@ define({"DOTAHeroes": {
         "ParticleFile": "particles/units/heroes/hero_tiny.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_tiny.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_tiny.txt",
-        "VoiceBackgroundSound": "Tiny.Background",
         "RenderablePortrait": {"Particles": {"tiny_ambient": {"0": {
             "type": "follow_origin",
             "location": "attach_hitloc"
@@ -12618,11 +12617,33 @@ define({"DOTAHeroes": {
             "location": "attach_hitloc"
         }}}},
         "precache": {"model": "models/heroes/undying/undying_flesh_golem.mdl"},
-        "ItemSlots": {"0": {
-            "SlotIndex": "0",
-            "SlotName": "weapon",
-            "SlotText": "#LoadoutSlot_Weapon"
-        }},
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder"
+            }
+        },
         "Bot": {
             "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
             "LaningInfo": {
@@ -13533,7 +13554,44 @@ define({"DOTAHeroes": {
         "HealthBarOffset": "160",
         "ParticleFile": "particles/units/heroes/hero_medusa.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_medusa.txt",
-        "VoiceFile": "scripts/voscripts/game_sounds_vo_medusa.txt"
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_medusa.txt",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "tail",
+                "SlotText": "#LoadoutSlot_Tail",
+                "TextureWidth": "512",
+                "TextureHeight": "256"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms",
+                "TextureWidth": "256",
+                "TextureHeight": "128"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "armor",
+                "SlotText": "#LoadoutSlot_Armor",
+                "TextureWidth": "256",
+                "TextureHeight": "256"
+            }
+        }
     },
     "npc_dota_hero_troll_warlord": {
         "Model": "models/heroes/troll_warlord/troll_warlord.mdl",
@@ -13925,7 +13983,34 @@ define({"DOTAHeroes": {
         "MovementTurnRate": "0.6",
         "HealthBarOffset": "250",
         "ParticleFile": "particles/units/heroes/hero_shredder.pcf",
-        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_undying.txt",
-        "VoiceFile": "scripts/voscripts/game_sounds_vo_undying.txt"
+        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_shredder.txt",
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_shredder.txt",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "offhand_weapon",
+                "SlotText": "#LoadoutSlot_OffHand"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            }
+        }
     }
 }});

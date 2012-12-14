@@ -10049,6 +10049,15 @@ define({"DOTAHeroes": {
                 "TextureHeight": "256",
                 "MaxPolygonsLOD0": "500",
                 "MaxPolygonsLOD1": "300"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon",
+                "TextureWidth": "256",
+                "TextureHeight": "256",
+                "MaxPolygonsLOD0": "500",
+                "MaxPolygonsLOD1": "300"
             }
         },
         "Bot": {
@@ -11851,18 +11860,23 @@ define({"DOTAHeroes": {
             },
             "1": {
                 "SlotIndex": "1",
-                "SlotName": "offhand_weapon",
-                "SlotText": "#LoadoutSlot_OffHand"
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
             },
             "2": {
                 "SlotIndex": "2",
-                "SlotName": "head",
-                "SlotText": "#LoadoutSlot_Head"
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt"
             },
             "3": {
                 "SlotIndex": "3",
-                "SlotName": "taunt",
-                "SlotText": "#LoadoutSlot_Taunt"
+                "SlotName": "armor",
+                "SlotText": "#LoadoutSlot_Armor"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "tail",
+                "SlotText": "#LoadoutSlot_Tail"
             }
         },
         "Bot": {
@@ -13947,6 +13961,7 @@ define({"DOTAHeroes": {
     "npc_dota_hero_shredder": {
         "Model": "models/heroes/shredder/shredder.mdl",
         "Portrait": "vgui/hud/heroportraits/portrait_shredder",
+        "IdleExpression": "scenes/shredder/shredder_exp_idle_01.vcd",
         "SoundSet": "Hero_Shredder",
         "IdleSoundLoop": "Hero_Shredder.IdleLoop",
         "Enabled": "1",

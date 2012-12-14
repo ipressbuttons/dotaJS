@@ -12407,30 +12407,30 @@ define({"DOTAAbilities": {
         "AbilityName": "shredder_whirling_death",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "0",
+        "AbilityCastRange": "300",
         "AbilityCastPoint": "0 0 0 0",
         "AbilityCooldown": "8.0 8.0 8.0 8.0",
         "AbilityManaCost": "70 80 90 100",
         "AbilitySpecial": {
             "01": {
-                "var_type": "FIELD_FLOAT",
-                "duration": "7.0"
-            },
-            "02": {
                 "var_type": "FIELD_INTEGER",
                 "whirling_radius": "300"
             },
-            "03": {
+            "02": {
                 "var_type": "FIELD_INTEGER",
                 "whirling_damage": "100 150 200 250"
             },
-            "04": {
+            "03": {
                 "var_type": "FIELD_FLOAT",
                 "whirling_tick": "0.3"
             },
-            "05": {
+            "04": {
                 "var_type": "FIELD_INTEGER",
                 "stat_loss_pct": "15"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "7.0"
             }
         }
     },
@@ -12531,6 +12531,10 @@ define({"DOTAAbilities": {
             "08": {
                 "var_type": "FIELD_FLOAT",
                 "mana_per_second": "20.0 25.0 30.0"
+            },
+            "09": {
+                "var_type": "FIELD_FLOAT",
+                "pass_slow_duration": "0.5"
             }
         }
     },
@@ -12539,7 +12543,8 @@ define({"DOTAAbilities": {
         "AbilityName": "shredder_return_chakram",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
-        "AbilityCastPoint": "0.0 0.0 0.0 0.0"
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+        "AbilityCooldown": "0.0 0.0 0.0"
     },
     "bristleback_viscous_nasal_goo": {
         "ID": "5548",
@@ -12658,6 +12663,155 @@ define({"DOTAAbilities": {
             "05": {
                 "var_type": "FIELD_FLOAT",
                 "stack_duration": "10.0 10.0 10.0"
+            }
+        }
+    },
+    "tusk_ice_shards": {
+        "ID": "5565",
+        "AbilityName": "tusk_ice_shards",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "1500",
+        "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+        "AbilityCooldown": "18.0 16.0 14.0 12.0",
+        "AbilityManaCost": "120 120 120 120",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "shard_width": "200"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "shard_damage": "70 140 210 280"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "shard_count": "5"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "shard_speed": "2500.0"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "shard_duration": "5.0"
+            }
+        }
+    },
+    "tusk_snowball": {
+        "ID": "5566",
+        "AbilityName": "tusk_snowball",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "1250",
+        "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+        "AbilityCooldown": "24.0 24.0 24.0 24.0",
+        "AbilityManaCost": "75 75 75 75",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "snowball_radius": "200"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "snowball_grow_rate": "40"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "snowball_damage": "40 80 120 160"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "stun_duration": "0.25 0.5 0.75 1.0"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage": "40"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "bonus_stun": "0.25"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "speed_pct": "150"
+            },
+            "08": {
+                "var_type": "FIELD_FLOAT",
+                "snowball_duration": "3.0"
+            },
+            "09": {
+                "var_type": "FIELD_INTEGER",
+                "snowball_range": "1250"
+            }
+        }
+    },
+    "tusk_frozen_sigil": {
+        "ID": "5567",
+        "AbilityName": "tusk_frozen_sigil",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+        "AbilityCooldown": "50.0 50.0 50.0 50.0",
+        "AbilityManaCost": "75 75 75 75",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "sigil_radius": "600"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "sigil_duration": "30.0"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "move_slow": "10 15 20 25"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "attack_slow": "30 40 50 60"
+            }
+        }
+    },
+    "tusk_walrus_punch": {
+        "ID": "5568",
+        "AbilityName": "tusk_walrus_punch",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityCastPoint": "0.1 0.1 0.1",
+        "AbilityCooldown": "30.0 24.0 18.0",
+        "AbilityManaCost": "50 75 100",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "walrus_window": "10.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "crit_multiplier": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "threshold_crit_multiplier": "400"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "hp_threshold": "50"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "air_time": "1.0"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "slow_duration": "2.0 3.0 4.0"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "move_slow": "40"
             }
         }
     },

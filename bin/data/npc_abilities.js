@@ -506,7 +506,7 @@ define({"DOTAAbilities": {
     "drow_ranger_trueshot": {
         "ID": "5021",
         "AbilityName": "drow_ranger_trueshot",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_AURA",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_FLOAT",
@@ -563,7 +563,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastRange": "0",
         "AbilityCastPoint": "0.69 0.69 0.69 0.69",
-        "AbilityCooldown": "6.0 6.0 6.0 6.0",
+        "AbilityCooldown": "5.0",
         "AbilityDuration": "14.0 14.0 14.0 14.0",
         "AbilityDamage": "0 0 0 0",
         "AbilityManaCost": "50 50 50 50",
@@ -583,8 +583,8 @@ define({"DOTAAbilities": {
         "AbilityName": "earthshaker_aftershock",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityDuration": "0.3 0.7 1.2 1.5",
-        "AbilityDamage": "25 45 75 115",
+        "AbilityDuration": "0.6 0.9 1.2 1.5",
+        "AbilityDamage": "50 75 100 125",
         "AbilityModifierSupportBonus": "100",
         "AbilitySpecial": {
             "01": {
@@ -593,7 +593,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "tooltip_duration": "0.3 0.7 1.2 1.5"
+                "tooltip_duration": "0.6 0.9 1.2 1.5"
             }
         }
     },
@@ -1135,7 +1135,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "duration": "11.0 11.0 11.0"
+                "duration": "15.0"
             }
         }
     },
@@ -1198,7 +1198,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "1000",
-        "AbilityCastPoint": "0.4",
+        "AbilityCastPoint": "0.25",
         "AbilityCooldown": "11.0 11.0 11.0 11.0",
         "AbilityDamage": "100 175 250 325",
         "AbilityManaCost": "140 155 160 165",
@@ -1222,7 +1222,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "600 700 800 900",
-        "AbilityCastPoint": "0.4",
+        "AbilityCastPoint": "0.25",
         "AbilityCooldown": "10",
         "AbilityManaCost": "100 100 100 100",
         "AbilityModifierSupportValue": "0.3",
@@ -1322,7 +1322,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
         "AbilityCastRange": "700 1100 1500",
-        "AbilityCastPoint": "0.4",
+        "AbilityCastPoint": "0.25",
         "AbilityCooldown": "80.0 80.0 80.0",
         "AbilityManaCost": "25 25 25",
         "AbilitySpecial": {
@@ -1350,7 +1350,7 @@ define({"DOTAAbilities": {
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityManaCost": "150 150 150",
-        "AbilityCastPoint": "0.4"
+        "AbilityCastPoint": "0.25"
     },
     "nevermore_shadowraze1": {
         "ID": "5059",
@@ -1646,7 +1646,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0.1 0.1 0.1 0.1",
         "AbilityCastRange": "3000",
-        "AbilityCooldown": "13.0 13.0 13.0 13.0",
+        "AbilityCooldown": "12.0",
         "AbilityDamage": "70 140 210 280",
         "AbilityManaCost": "150 150 150 150",
         "AbilitySpecial": {
@@ -2400,7 +2400,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "great_cleave_damage": "25 40 55 70"
+                "great_cleave_damage": "20 35 50 65"
             }
         }
     },
@@ -2410,7 +2410,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0",
         "AbilityCooldown": "36.0 30.0 24.0 18.0",
-        "AbilityDuration": "8.0 8.0 8.0 8.0",
+        "AbilityDuration": "7.0",
         "AbilityManaCost": "25 25 25 25",
         "AbilitySpecial": {
             "01": {
@@ -3200,7 +3200,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "15.0 15.0 15.0 15.0",
         "AbilityDuration": "20.0 20.0 20.0 20.0",
-        "AbilityDamage": "18.75 37.5 56.25 75",
+        "AbilityDamage": "30 50 70 90",
         "AbilityManaCost": "40 40 40 40",
         "AbilitySpecial": {
             "01": {
@@ -4292,7 +4292,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "stun_duration": "1.0 1.0 1.0"
+                "stun_duration": "1.5 1.5 1.5"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -4349,7 +4349,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "20.0 20.0 20.0 20.0",
+        "AbilityCooldown": "16",
         "AbilityDamage": "15 25 35 45",
         "AbilityManaCost": "90 110 130 150",
         "AbilityCastRange": "500",
@@ -5048,7 +5048,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
         "AbilityCastRange": "700 700 700 700",
         "AbilityCastPoint": "0.2 0.2 0.2 0.2",
-        "AbilityCooldown": "13.0 11.0 9.0 7.0",
+        "AbilityCooldown": "12.0 10.0 8.0 6.0",
         "AbilityDuration": "2.0 2.5 3.0 3.5",
         "AbilityManaCost": "100 100 100 100",
         "AbilitySpecial": {
@@ -5224,7 +5224,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
         "AbilityCastPoint": "0.0 0.0 0.0 0.0",
         "AbilityCooldown": "17.0 17.0 17.0 17.0",
-        "AbilityManaCost": "75 75 75 75",
+        "AbilityManaCost": "100",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -5779,7 +5779,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
-        "AbilityCastRange": "400 600 800 1000",
+        "AbilityCastRange": "550 700 850 1000",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "60 45 30 15",
         "AbilityManaCost": "140 130 120 110",
@@ -5791,7 +5791,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "range_tooltip": "400 600 800 1000"
+                "range_tooltip": "550 700 850 1000"
             }
         }
     },
@@ -6500,7 +6500,7 @@ define({"DOTAAbilities": {
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
         "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
-        "AbilityCastRange": "400 500 600 700",
+        "AbilityCastRange": "700",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
         "AbilityCooldown": "10.0",
         "AbilityManaCost": "100 120 140 160",
@@ -6578,7 +6578,7 @@ define({"DOTAAbilities": {
         "AbilityDuration": "3.0 3.0 3.0 3.0",
         "AbilitySpecial": {"01": {
             "var_type": "FIELD_INTEGER",
-            "slow_attack_speed": "-20 -40 -60 -80"
+            "slow_attack_speed": "-20 -50 -80 -110"
         }}
     },
     "enchantress_enchant": {
@@ -7123,21 +7123,17 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_armor": "-1 -3 -5"
+                "bonus_gold_radius": "925 925 925"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_gold_radius": "925 925 925"
+                "bonus_gold_self": "150 200 250"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_gold_self": "150 200 250"
-            },
-            "06": {
-                "var_type": "FIELD_INTEGER",
                 "bonus_gold": "50 100 150"
             },
-            "07": {
+            "06": {
                 "var_type": "FIELD_FLOAT",
                 "duration": "30.0 30.0 30.0"
             }
@@ -7203,7 +7199,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "90 100 110 120"
+                "damage": "90 110 130 150"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -7314,7 +7310,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "damage": "100"
+                "damage": "25 50 75 100"
             }
         }
     },
@@ -7950,7 +7946,7 @@ define({"DOTAAbilities": {
         "AbilityCastPoint": "0.01 0.01 0.01 0.01",
         "AbilityCooldown": "50.0 46.0 42.0 38.0",
         "AbilityDuration": "30.0",
-        "AbilityManaCost": "140 140 140 140",
+        "AbilityManaCost": "110 120 130 140",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -8501,6 +8497,10 @@ define({"DOTAAbilities": {
             "08": {
                 "var_type": "FIELD_INTEGER",
                 "midair_explosion_radius": "175"
+            },
+            "09": {
+                "var_type": "FIELD_FLOAT",
+                "brew_explosion": "7.0"
             }
         }
     },
@@ -9956,7 +9956,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityDuration": "10.0 10.0 10.0 10.0",
-        "AbilityCooldown": "3.0 3.0 3.0 3.0",
+        "AbilityCooldown": "2.75",
         "AbilityCastRange": "1500",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityManaCost": "50 50 50 50",
@@ -10254,7 +10254,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastRange": "350",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "18.0 16.0 14.0 12.0",
+        "AbilityCooldown": "16.0 14.0 12.0 10.0",
         "AbilityManaCost": "140 140 140 140",
         "AbilitySpecial": {
             "01": {
@@ -10286,7 +10286,7 @@ define({"DOTAAbilities": {
     "treant_living_armor": {
         "ID": "5436",
         "AbilityName": "treant_living_armor",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
         "AbilityCastRange": "0",
@@ -10296,7 +10296,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage_count": "6 6 6 6"
+                "damage_count": "7"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -10319,7 +10319,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
         "AbilityCastPoint": "0.5 0.5 0.5 0.5",
-        "AbilityCooldown": "80",
+        "AbilityCooldown": "70",
         "AbilityManaCost": "150 175 200",
         "AbilitySpecial": {
             "01": {
@@ -10509,7 +10509,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "decay_damage": "40 80 120 160"
+                "decay_damage": "20 60 100 140"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -11983,7 +11983,7 @@ define({"DOTAAbilities": {
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
         "AbilityCastPoint": "0.4 0.4 0.4 0.4",
         "AbilityCastRange": "800 800 800",
-        "AbilityCooldown": "140.0 110.0 80.0",
+        "AbilityCooldown": "140.0 100.0 60.0",
         "AbilityManaCost": "200 100 0",
         "AbilitySpecial": {
             "01": {
@@ -12259,11 +12259,15 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "stun_duration": "1.25 1.25 1.25"
+                "slow_duration": "1.25 1.25 1.25"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
                 "radius": "105"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "slow_movement_speed": "100"
             }
         }
     },
@@ -12364,7 +12368,7 @@ define({"DOTAAbilities": {
             },
             "07": {
                 "var_type": "FIELD_INTEGER",
-                "range": "1200"
+                "range": "600 800 1000 1200"
             },
             "08": {
                 "var_type": "FIELD_INTEGER",
@@ -12394,7 +12398,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_FLOAT",
-                "hero_stun_duration": "2.5 3.25 4.0"
+                "hero_stun_duration": "2.25 3.0 3.75"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
@@ -13500,7 +13504,7 @@ define({"DOTAAbilities": {
         "AbilityCastRange": "900",
         "AbilityCastPoint": "0.5",
         "AbilityCooldown": "4.0",
-        "AbilityManaCost": "90",
+        "AbilityManaCost": "50",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -13876,6 +13880,1227 @@ define({"DOTAAbilities": {
             "05": {
                 "var_type": "FIELD_INTEGER",
                 "projectile_count": "20"
+            }
+        }
+    },
+    "greevil_magic_missile": {
+        "ID": "5529",
+        "AbilityName": "greevil_magic_missile",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "500",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "6.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "magic_missile_speed": "1250"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "magic_missile_stun": "1.0"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "35 45 55"
+            }
+        }
+    },
+    "greevil_cold_snap": {
+        "ID": "5530",
+        "AbilityName": "greevil_cold_snap",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "1000",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "3.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_initial_damage": "25 30 35"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "freeze_duration": "0.4"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "freeze_cooldown": "0.7"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "10 15 20"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "damage_trigger": "10.0"
+            }
+        }
+    },
+    "greevil_decrepify": {
+        "ID": "5531",
+        "AbilityName": "greevil_decrepify",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+        "AbilityCastRange": "700",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_spell_damage_pct": "15 20 25"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_movement_speed": "-50"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "customval_duration": "1.0 1.5 2.0"
+            }
+        }
+    },
+    "greevil_diabolic_edict": {
+        "ID": "5532",
+        "AbilityName": "greevil_diabolic_edict",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_COMPOSITE",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "20",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "num_explosions": "20"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "500"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "8 13 18"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "5.0"
+            }
+        }
+    },
+    "greevil_maledict": {
+        "ID": "5533",
+        "AbilityName": "greevil_maledict",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "400",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "30.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_damage": "8 9 11"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_damage_threshold": "100"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "150"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "ticks": "3"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "10.0"
+            }
+        }
+    },
+    "greevil_shadow_strike": {
+        "ID": "5534",
+        "AbilityName": "greevil_shadow_strike",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "400",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "12.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_strike_damage": "20 25 30"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_duration_damage": "10 15 20"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "movement_slow": "-40"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "projectile_speed": "900"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "6.0"
+            }
+        }
+    },
+    "greevil_laguna_blade": {
+        "ID": "5535",
+        "AbilityName": "greevil_laguna_blade",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "30",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "80 105 130"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "damage_delay": "0.25"
+            }
+        }
+    },
+    "greevil_poison_nova": {
+        "ID": "5546",
+        "AbilityName": "greevil_poison_nova",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "40.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "830"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "start_radius": "255"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "10.0"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "11 14 17"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "speed": "500"
+            }
+        }
+    },
+    "greevil_ice_wall": {
+        "ID": "5547",
+        "AbilityName": "greevil_ice_wall",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "MaxLevel": "1",
+        "HotKeyOverride": "G",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCooldown": "20",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "customval_duration": "3.0 4.0 5.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "slow": "-40"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage_per_second": "13 18 23"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "wall_place_distance": "200"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "num_wall_elements": "15"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "wall_element_spacing": "80"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "wall_element_radius": "105"
+            },
+            "08": {
+                "var_type": "FIELD_FLOAT",
+                "slow_duration": "2.0"
+            }
+        }
+    },
+    "greevil_fatal_bonds": {
+        "ID": "5552",
+        "AbilityName": "greevil_fatal_bonds",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_HP_REMOVAL",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "20.0",
+        "AbilityManaCost": "0",
+        "AbilityCastRange": "800",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "count": "4"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_dmg_share_percentage": "6 9 12"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "10.0"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "search_aoe": "575"
+            }
+        }
+    },
+    "greevil_blade_fury": {
+        "ID": "5553",
+        "AbilityName": "greevil_blade_fury",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCooldown": "25.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "blade_fury_damage_tick": "0.2"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "5.0"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "blade_fury_radius": "250"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "28 33 38"
+            }
+        }
+    },
+    "greevil_phantom_strike": {
+        "ID": "5554",
+        "AbilityName": "greevil_phantom_strike",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+        "AbilityCastRange": "1000 1000 1000 1000",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCooldown": "8",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "bonus_attack_speed": "100"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_attacks": "3"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "tooltip_range": "1000 1000 1000 1000"
+            }
+        }
+    },
+    "greevil_time_lock": {
+        "ID": "5555",
+        "AbilityName": "greevil_time_lock",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "1.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "chance_pct": "10 15 20"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_damage": "7 11 15"
+            }
+        }
+    },
+    "greevil_shadow_wave": {
+        "ID": "5556",
+        "AbilityName": "greevil_shadow_wave",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+        "AbilityCastRange": "900",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "bounce_radius": "475"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "damage_radius": "185"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "max_targets": "4"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "28 33 38"
+            }
+        }
+    },
+    "greevil_leech_seed": {
+        "ID": "5557",
+        "AbilityName": "greevil_leech_seed",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "350",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "16.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "damage_interval": "0.75"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_leech_damage": "12 15 18"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "movement_slow": "-24"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "500"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "3.0"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "projectile_speed": "400"
+            }
+        }
+    },
+    "greevil_echo_slam": {
+        "ID": "5558",
+        "AbilityName": "greevil_echo_slam",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "30.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "echo_slam_damage_range": "500"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "echo_slam_echo_search_range": "550"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "echo_slam_echo_range": "500"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_echo_damage": "14 17 20"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "30 40 50"
+            }
+        }
+    },
+    "greevil_natures_attendants": {
+        "ID": "5559",
+        "AbilityName": "greevil_natures_attendants",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCooldown": "20.0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "heal_interval": "1.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_heal": "7 8 9"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "275"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "wisp_count": "4 5 6"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "5.0"
+            }
+        }
+    },
+    "greevil_bloodlust": {
+        "ID": "5560",
+        "AbilityName": "greevil_bloodlust",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "20",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "20"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "modelscale": "25"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_movement_speed": "12 14 16"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_attack_speed": "18 23 28"
+            }
+        }
+    },
+    "greevil_purification": {
+        "ID": "5561",
+        "AbilityName": "greevil_purification",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastRange": "400 500 600 700",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "15.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_heal": "50 55 60"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "225"
+            }
+        }
+    },
+    "greevil_flesh_golem": {
+        "ID": "5562",
+        "AbilityName": "greevil_flesh_golem",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityCooldown": "40.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "8.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "customval_bonus_damage": "12"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_armor_bonus": "3"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "health_regen": "1"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "700"
+            }
+        }
+    },
+    "greevil_hook": {
+        "ID": "5563",
+        "AbilityName": "greevil_hook",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastRange": "700 900 1100 1300",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCooldown": "13.0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "hook_speed": "1600.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "hook_width": "100"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "hook_distance": "1300"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "vision_radius": "500 500 500 500"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "vision_duration": "4.0 4.0 4.0 4.0"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "50"
+            }
+        }
+    },
+    "greevil_rot": {
+        "ID": "5564",
+        "AbilityName": "greevil_rot",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastPoint": "0 0 0 0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "rot_radius": "250"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "rot_tick": "0.2"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "rot_slow": "-20"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "customval_damage": "20"
+            }
+        }
+    },
+    "greevil_black_hole": {
+        "ID": "5569",
+        "AbilityName": "greevil_black_hole",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "250",
+        "AbilityCastPoint": "0.3 0.3 0.3",
+        "AbilityChannelTime": "3.0 3.0 3.0",
+        "AbilityCooldown": "40.0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "customval_pull_radius": "200"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "pull_speed": "40"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "customval_far_radius": "200"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "near_radius": "150"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "customval_far_damage": "10 13 16"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "customval_near_damage": "30 35 40"
+            },
+            "07": {
+                "var_type": "FIELD_FLOAT",
+                "tick_rate": "0.1"
+            },
+            "08": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "3.0"
+            },
+            "09": {
+                "var_type": "FIELD_INTEGER",
+                "vision_radius": "800"
+            }
+        }
+    },
+    "greevil_miniboss_black_nightmare": {
+        "ID": "5536",
+        "AbilityName": "greevil_miniboss_black_nightmare",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_HP_REMOVAL",
+        "AbilityCastRange": "650",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "15.0",
+        "AbilityDuration": "6.0",
+        "AbilityDamage": "20",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "nightmare_dot_interval": "1.0"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "nightmare_invuln_time": "1.0"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "7.0"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "animation_rate": "0.2"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "0"
+            }
+        }
+    },
+    "greevil_miniboss_black_brain_sap": {
+        "ID": "5537",
+        "AbilityName": "greevil_miniboss_black_brain_sap",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastPoint": "0.3",
+        "AbilityCastRange": "600",
+        "AbilityCooldown": "14.0",
+        "AbilityDamage": "200",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "cast_animation": "1"
+        }}
+    },
+    "greevil_miniboss_blue_cold_feet": {
+        "ID": "5538",
+        "AbilityName": "greevil_miniboss_blue_cold_feet",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "700",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "9.0",
+        "AbilityDuration": "4.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "damage": "75"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "break_distance": "740"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "stun_duration": "3.5"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "2"
+            }
+        }
+    },
+    "greevil_miniboss_blue_ice_vortex": {
+        "ID": "5539",
+        "AbilityName": "greevil_miniboss_blue_ice_vortex",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityCastRange": "1500",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "12.0",
+        "AbilityDuration": "6.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "275"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "movement_speed_pct": "-30"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "spell_resist_pct": "25"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "3"
+            }
+        }
+    },
+    "greevil_miniboss_red_earthshock": {
+        "ID": "5540",
+        "AbilityName": "greevil_miniboss_red_earthshock",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "6.0",
+        "AbilityDuration": "4.0",
+        "AbilityDamage": "240",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "shock_radius": "385"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "movement_slow": "-55"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "4"
+            }
+        }
+    },
+    "greevil_miniboss_red_overpower": {
+        "ID": "5541",
+        "AbilityName": "greevil_miniboss_red_overpower",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityCastRange": "300",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10.0",
+        "AbilityDuration": "15.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "max_attacks": "5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "attack_speed_bonus_pct": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "5"
+            }
+        }
+    },
+    "greevil_miniboss_yellow_ion_shell": {
+        "ID": "5542",
+        "AbilityName": "greevil_miniboss_yellow_ion_shell",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "250"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "damage_per_second": "90"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "20"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "6"
+            }
+        }
+    },
+    "greevil_miniboss_yellow_surge": {
+        "ID": "5543",
+        "AbilityName": "greevil_miniboss_yellow_surge",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "9.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "7.5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "7"
+            }
+        }
+    },
+    "greevil_miniboss_white_purification": {
+        "ID": "5544",
+        "AbilityName": "greevil_miniboss_white_purification",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+        "AbilityCastRange": "700",
+        "AbilityCastPoint": "0.3",
+        "AbilityCooldown": "10.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "heal": "360"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "225"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "8"
+            }
+        }
+    },
+    "greevil_miniboss_white_degen_aura": {
+        "ID": "5545",
+        "AbilityName": "greevil_miniboss_white_degen_aura",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityCastRange": "300",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "speed_bonus": "-28"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "315"
+            }
+        }
+    },
+    "greevil_miniboss_green_living_armor": {
+        "ID": "5570",
+        "AbilityName": "treant_living_armor",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityCastRange": "300",
+        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCooldown": "14.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "damage_count": "6"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "health_regen": "7"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "damage_block": "40"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "10.0"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "9"
+            }
+        }
+    },
+    "greevil_miniboss_green_overgrowth": {
+        "ID": "5571",
+        "AbilityName": "greevil_miniboss_green_overgrowth",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityType": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "AbilityCastRange": "500",
+        "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+        "AbilityCooldown": "20",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "3.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "625"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "10"
+            }
+        }
+    },
+    "greevil_miniboss_orange_dragon_slave": {
+        "ID": "5572",
+        "AbilityName": "greevil_miniboss_orange_dragon_slave",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "800",
+        "AbilityCastPoint": "0.45 0.45 0.45 0.45",
+        "AbilityCooldown": "9",
+        "AbilityDuration": "0.6875 0.6875 0.6875 0.6875",
+        "AbilityDamage": "170",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "dragon_slave_speed": "1200"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "dragon_slave_width_initial": "275"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "dragon_slave_width_end": "150"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "dragon_slave_distance": "1075"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "11"
+            }
+        }
+    },
+    "greevil_miniboss_orange_light_strike_array": {
+        "ID": "5573",
+        "AbilityName": "greevil_miniboss_orange_light_strike_array",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.45 0.45 0.45 0.45",
+        "AbilityCooldown": "11",
+        "AbilityDuration": "1.6 1.6 1.6 1.6",
+        "AbilityDamage": "150",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "light_strike_array_aoe": "225"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "light_strike_array_delay_time": "0.5"
+            },
+            "03": {
+                "var_type": "FIELD_FLOAT",
+                "light_strike_array_stun_duration": "1.6"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "12"
+            }
+        }
+    },
+    "greevil_miniboss_purple_venomous_gale": {
+        "ID": "5574",
+        "AbilityName": "greevil_miniboss_purple_venomous_gale",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+        "AbilityCooldown": "12.0",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "10"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "strike_damage": "50"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "tick_damage": "30"
+            },
+            "04": {
+                "var_type": "FIELD_FLOAT",
+                "tick_interval": "2"
+            },
+            "05": {
+                "var_type": "FIELD_INTEGER",
+                "movement_slow": "-50"
+            },
+            "06": {
+                "var_type": "FIELD_INTEGER",
+                "radius": "125"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "speed": "1200"
+            },
+            "08": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "13"
+            }
+        }
+    },
+    "greevil_miniboss_purple_plague_ward": {
+        "ID": "5575",
+        "AbilityName": "greevil_miniboss_purple_plague_ward",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+        "AbilityCastRange": "450",
+        "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+        "AbilityCooldown": "10",
+        "AbilityManaCost": "50",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "30.0"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "ward_hp_tooltip": "200"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "ward_damage_tooltip": "19"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "cast_animation": "14"
+            }
+        }
+    },
+    "greevil_miniboss_sight": {
+        "ID": "5576",
+        "AbilityName": "greevil_miniboss_sight",
+        "AbilityType": "DOTA_ABILITY_TYPE_BASIC",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "radius": "1000"
+        }}
+    },
+    "throw_snowball": {
+        "ID": "5577",
+        "AbilityName": "throw_snowball",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.2",
+        "AbilityCooldown": "0.5",
+        "AbilityDamage": "0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "speed": "1000"
+        }}
+    },
+    "throw_coal": {
+        "ID": "5578",
+        "AbilityName": "throw_coal",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+        "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+        "AbilityCastRange": "600",
+        "AbilityCastPoint": "0.2",
+        "AbilityCooldown": "0.5",
+        "AbilityDamage": "0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "speed": "1000"
+        }}
+    },
+    "healing_campfire": {
+        "ID": "5579",
+        "AbilityName": "healing_campfire",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityCastRange": "350",
+        "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+        "AbilityCooldown": "10.0",
+        "AbilityDuration": "10.0",
+        "AbilityManaCost": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "heal_amount": "5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "healing_aura_radius": "500"
             }
         }
     }

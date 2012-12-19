@@ -2560,7 +2560,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "aura_attack_speed": "-25"
+                "aura_attack_speed": "-30"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
@@ -2971,7 +2971,7 @@ define({"DOTAAbilities": {
     "item_recipe_greater_crit": {
         "ID": "140",
         "AbilityName": "item_recipe_greater_crit",
-        "ItemCost": "1200",
+        "ItemCost": "1000",
         "ItemShopTags": "",
         "ItemRecipe": "1",
         "ItemResult": "item_greater_crit",
@@ -2981,7 +2981,7 @@ define({"DOTAAbilities": {
         "ID": "141",
         "AbilityName": "item_greater_crit",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-        "ItemCost": "5750",
+        "ItemCost": "5550",
         "ItemShopTags": "damage;crit",
         "ItemQuality": "epic",
         "AbilitySpecial": {
@@ -2995,7 +2995,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "crit_multiplier": "270"
+                "crit_multiplier": "240"
             }
         }
     },
@@ -3190,7 +3190,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_damage": "35"
+                "bonus_damage": "30"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -3510,11 +3510,11 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_health": "200"
+                "bonus_health": "250"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "bonus_mana": "150"
+                "bonus_mana": "250"
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
@@ -4831,5 +4831,381 @@ define({"DOTAAbilities": {
             "var_type": "FIELD_INTEGER",
             "bonus_damage": "100"
         }}
+    },
+    "item_greevil_whistle": {
+        "ID": "228",
+        "AbilityName": "item_greevil_whistle",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+        "UIPickupSound": "Item.PickUpGemShop",
+        "UIDropSound": "Item.DropGemShop",
+        "WorldDropSound": "Item.DropGemWorld",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "120.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "0",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "1",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "30"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "transform_duration": "2"
+            }
+        }
+    },
+    "item_greevil_whistle_toggle": {
+        "ID": "235",
+        "AbilityName": "item_greevil_whistle_toggle",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+        "UIPickupSound": "Item.PickUpGemShop",
+        "UIDropSound": "Item.DropGemShop",
+        "WorldDropSound": "Item.DropGemWorld",
+        "AbilityCastRange": "0",
+        "AbilityCastPoint": "0.0",
+        "AbilityChannelTime": "2.0",
+        "AbilityCooldown": "2.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "0",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "1",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_FLOAT",
+                "duration": "30"
+            },
+            "02": {
+                "var_type": "FIELD_FLOAT",
+                "transform_duration": "2"
+            }
+        }
+    },
+    "item_present": {
+        "ID": "227",
+        "AbilityName": "item_present",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "Model": "models/props_winter/present.mdl",
+        "UIPickupSound": "Item.PickUpGemShop",
+        "UIDropSound": "Item.DropGemShop",
+        "WorldDropSound": "Item.DropGemWorld",
+        "AbilityCastRange": "350",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "ItemCastOnPickup": "1",
+        "AbilitySpecial": {}
+    },
+    "item_winter_stocking": {
+        "ID": "229",
+        "AbilityName": "item_winter_stocking",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "UIPickupSound": "Item.PickUpGemShop",
+        "UIDropSound": "Item.DropGemShop",
+        "WorldDropSound": "Item.DropGemWorld",
+        "AbilityCastRange": "350",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {}
+    },
+    "item_winter_skates": {
+        "ID": "230",
+        "AbilityName": "item_winter_skates",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "ItemCost": "0",
+        "ItemShopTags": "move_speed",
+        "ItemQuality": "component",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "bonus_movement_speed": "100"
+        }}
+    },
+    "item_winter_cake": {
+        "ID": "231",
+        "AbilityName": "item_winter_cake",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "5",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "8"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "400"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "50"
+            }
+        }
+    },
+    "item_winter_cookie": {
+        "ID": "232",
+        "AbilityName": "item_winter_cookie",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "5",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "11"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "350"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "100"
+            }
+        }
+    },
+    "item_winter_coco": {
+        "ID": "233",
+        "AbilityName": "item_winter_coco",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "5",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "14"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "150"
+            }
+        }
+    },
+    "item_winter_ham": {
+        "ID": "234",
+        "AbilityName": "item_winter_ham",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "5",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "2"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "300"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "75"
+            }
+        }
+    },
+    "item_winter_kringle": {
+        "ID": "236",
+        "AbilityName": "item_winter_kringle",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "5",
+        "ItemPurchasable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "17"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "250"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "200"
+            }
+        }
+    },
+    "item_winter_mushroom": {
+        "ID": "237",
+        "AbilityName": "item_winter_mushroom",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {}
+    },
+    "item_winter_greevil_treat": {
+        "ID": "238",
+        "AbilityName": "item_winter_greevil_treat",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {"01": {
+            "var_type": "FIELD_INTEGER",
+            "duration": "10"
+        }}
+    },
+    "item_winter_greevil_garbage": {
+        "ID": "239",
+        "AbilityName": "item_winter_greevil_garbage",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "AbilityCastRange": "150",
+        "AbilityCastPoint": "0.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "1",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE",
+        "ItemPermanent": "0",
+        "ItemInitialCharges": "2",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {
+            "01": {
+                "var_type": "FIELD_INTEGER",
+                "buff_duration": "5"
+            },
+            "02": {
+                "var_type": "FIELD_INTEGER",
+                "total_health": "400"
+            },
+            "03": {
+                "var_type": "FIELD_INTEGER",
+                "total_mana": "150"
+            }
+        }
+    },
+    "item_winter_greevil_chewy": {
+        "ID": "240",
+        "AbilityName": "item_winter_greevil_chewy",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+        "AbilityCastRange": "400",
+        "AbilityCastPoint": "0.0",
+        "AbilityCooldown": "10.0",
+        "AbilityManaCost": "0",
+        "AbilityChannelTime": "2.0",
+        "ItemCost": "0",
+        "ItemShopTags": "consumable",
+        "ItemQuality": "consumable",
+        "ItemStackable": "0",
+        "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
+        "ItemPermanent": "1",
+        "ItemInitialCharges": "1",
+        "ItemPurchasable": "0",
+        "ItemKillable": "0",
+        "ItemDroppable": "0",
+        "ItemSellable": "0",
+        "AbilitySpecial": {}
     }
 }});

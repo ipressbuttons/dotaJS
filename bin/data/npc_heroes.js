@@ -391,8 +391,8 @@ define({"DOTAHeroes": {
         "Ability6": "bane_nightmare_end",
         "ArmorPhysical": "1",
         "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
-        "AttackDamageMin": "29",
-        "AttackDamageMax": "35",
+        "AttackDamageMin": "33",
+        "AttackDamageMax": "39",
         "AttackRate": "1.7",
         "AttackAnimationPoint": "0.3",
         "AttackAcquisitionRange": "800",
@@ -3378,7 +3378,7 @@ define({"DOTAHeroes": {
         "ProjectileSpeed": "1100",
         "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
         "AttributeBaseStrength": "19",
-        "AttributeStrengthGain": "1.8",
+        "AttributeStrengthGain": "2.3",
         "AttributeBaseIntelligence": "20",
         "AttributeIntelligenceGain": "2.7",
         "AttributeBaseAgility": "11",
@@ -7387,7 +7387,7 @@ define({"DOTAHeroes": {
         "ProjectileModel": "viper_base_attack",
         "ProjectileSpeed": "1200",
         "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
-        "AttributeBaseStrength": "17",
+        "AttributeBaseStrength": "20",
         "AttributeStrengthGain": "1.9",
         "AttributeBaseAgility": "21",
         "AttributeAgilityGain": "2.5",
@@ -7984,7 +7984,7 @@ define({"DOTAHeroes": {
         "AttributeBaseStrength": "24",
         "AttributeStrengthGain": "2.7",
         "AttributeBaseAgility": "13",
-        "AttributeAgilityGain": "1.2",
+        "AttributeAgilityGain": "2.3",
         "AttributeBaseIntelligence": "17",
         "AttributeIntelligenceGain": "1.3",
         "MovementSpeed": "315",
@@ -7995,6 +7995,38 @@ define({"DOTAHeroes": {
         "VoiceFile": "scripts/voscripts/game_sounds_vo_rattletrap.txt",
         "ParticleFile": "particles/units/heroes/hero_rattletrap.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_rattletrap.txt",
+        "ItemSlots": {
+            "0": {
+                "SlotIndex": "0",
+                "SlotName": "weapon",
+                "SlotText": "#LoadoutSlot_Weapon"
+            },
+            "1": {
+                "SlotIndex": "1",
+                "SlotName": "head",
+                "SlotText": "#LoadoutSlot_Head"
+            },
+            "2": {
+                "SlotIndex": "2",
+                "SlotName": "back",
+                "SlotText": "#LoadoutSlot_Back"
+            },
+            "3": {
+                "SlotIndex": "3",
+                "SlotName": "shoulder",
+                "SlotText": "#LoadoutSlot_Shoulder"
+            },
+            "4": {
+                "SlotIndex": "4",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "arms",
+                "SlotText": "#LoadoutSlot_Arms"
+            }
+        },
         "Bot": {
             "HeroType": "DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT",
             "LaningInfo": {
@@ -10151,7 +10183,7 @@ define({"DOTAHeroes": {
         "Ability5": "doom_bringer_empty2",
         "Ability6": "doom_bringer_doom",
         "Ability7": "attribute_bonus",
-        "ArmorPhysical": "-2",
+        "ArmorPhysical": "-1",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
         "AttackDamageMin": "27",
         "AttackDamageMax": "43",
@@ -11560,7 +11592,7 @@ define({"DOTAHeroes": {
         "AttributeStrengthGain": "2.75",
         "AttributeBaseAgility": "16",
         "AttributeAgilityGain": "1.9",
-        "AttributeBaseIntelligence": "15",
+        "AttributeBaseIntelligence": "17",
         "AttributeIntelligenceGain": "1.55",
         "MovementSpeed": "305",
         "MovementTurnRate": "0.5",
@@ -12399,8 +12431,8 @@ define({"DOTAHeroes": {
         "Ability5": "attribute_bonus",
         "ArmorPhysical": "-1",
         "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
-        "AttackDamageMin": "46",
-        "AttackDamageMax": "54",
+        "AttackDamageMin": "56",
+        "AttackDamageMax": "64",
         "AttackRate": "1.9",
         "AttackAnimationPoint": "0.6",
         "AttackAcquisitionRange": "600",
@@ -13471,7 +13503,7 @@ define({"DOTAHeroes": {
         "AttributeStrengthGain": "1.8",
         "AttributeBaseIntelligence": "16",
         "AttributeIntelligenceGain": "1.9",
-        "AttributeBaseAgility": "15",
+        "AttributeBaseAgility": "21",
         "AttributeAgilityGain": "1.5",
         "VisionDaytimeRange": "1800",
         "VisionNighttimeRange": "1800",
@@ -13768,7 +13800,7 @@ define({"DOTAHeroes": {
         "AttributeAgilityGain": "2.0",
         "VisionDaytimeRange": "1800",
         "VisionNighttimeRange": "800",
-        "MovementSpeed": "305",
+        "MovementSpeed": "300",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
         "HealthBarOffset": "220",
@@ -13966,13 +13998,15 @@ define({"DOTAHeroes": {
         "IdleSoundLoop": "Hero_Shredder.IdleLoop",
         "Enabled": "1",
         "ForceEnabled": "1",
-        "Role": "Ganker,Initiator,Durable",
+        "Role": "Durable,Nuker,Escape",
         "Rolelevels": "2,1,1",
         "Team": "Good",
         "HeroID": "98",
         "ModelScale": ".825",
         "NameAliases": "Rizzrack",
-        "url": "Shredder",
+        "url": "Timbersaw",
+        "PickSound": "shredder_timb_spawn_01",
+        "BanSound": "shredder_timb_anger_02",
         "Ability1": "shredder_whirling_death",
         "Ability2": "shredder_timber_chain",
         "Ability3": "shredder_reactive_armor",
@@ -14000,6 +14034,28 @@ define({"DOTAHeroes": {
         "ParticleFile": "particles/units/heroes/hero_shredder.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_shredder.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_shredder.txt",
+        "RenderablePortrait": {"Particles": {"shredder_ambient": {
+            "0": {
+                "type": "follow_attachment",
+                "location": "attach_chimmney"
+            },
+            "1": {
+                "type": "follow_origin",
+                "location": "attach_hitloc"
+            },
+            "2": {
+                "type": "follow_attachment",
+                "location": "attach_hitloc"
+            },
+            "3": {
+                "type": "follow_attachment",
+                "location": "attach_saw"
+            },
+            "4": {
+                "type": "follow_attachment",
+                "location": "attach_armor"
+            }
+        }}},
         "ItemSlots": {
             "0": {
                 "SlotIndex": "0",
@@ -14025,7 +14081,98 @@ define({"DOTAHeroes": {
                 "SlotIndex": "4",
                 "SlotName": "back",
                 "SlotText": "#LoadoutSlot_Back"
+            },
+            "5": {
+                "SlotIndex": "5",
+                "SlotName": "belt",
+                "SlotText": "#LoadoutSlot_Belt",
+                "TextureWidth": "256",
+                "TextureHeight": "128",
+                "MaxPolygonsLOD0": "450",
+                "MaxPolygonsLOD1": "300"
             }
         }
+    },
+    "npc_dota_hero_bristleback": {
+        "Model": "models/heroes/bristleback/bristleback.mdl",
+        "Portrait": "vgui/hud/heroportraits/portrait_bristleback",
+        "SoundSet": "Hero_Bristleback",
+        "IdleSoundLoop": "Hero_Bristleback.IdleLoop",
+        "Enabled": "0",
+        "ForceEnabled": "1",
+        "Role": "Ganker,Initiator,Durable",
+        "Rolelevels": "2,1,1",
+        "Team": "Good",
+        "HeroID": "99",
+        "ModelScale": "1.0",
+        "NameAliases": "Rigwarl",
+        "url": "Bristleback",
+        "Ability1": "bristleback_viscous_nasal_goo",
+        "Ability2": "bristleback_quill_spray",
+        "Ability3": "bristleback_bristleback",
+        "Ability4": "bristleback_warpath",
+        "Ability5": "attribute_bonus",
+        "ArmorPhysical": "1.0",
+        "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+        "AttackDamageMin": "30",
+        "AttackDamageMax": "40",
+        "AttackRate": "1.7",
+        "AttackAnimationPoint": "0.4",
+        "AttackAcquisitionRange": "600",
+        "AttackRange": "128",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "AttributeBaseStrength": "22",
+        "AttributeStrengthGain": "2.2",
+        "AttributeBaseAgility": "17",
+        "AttributeAgilityGain": "1.8",
+        "AttributeBaseIntelligence": "14",
+        "AttributeIntelligenceGain": "2.8",
+        "MovementSpeed": "295",
+        "MovementTurnRate": "0.6",
+        "HealthBarOffset": "250",
+        "ParticleFile": "particles/units/heroes/hero_bristleback.pcf",
+        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_bristleback.txt",
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_bristleback.txt"
+    },
+    "npc_dota_hero_tusk": {
+        "Model": "models/heroes/tuskarr/tuskarr.mdl",
+        "Portrait": "vgui/hud/heroportraits/portrait_tusk",
+        "SoundSet": "Hero_Tusk",
+        "IdleSoundLoop": "Hero_Tusk.IdleLoop",
+        "Enabled": "0",
+        "ForceEnabled": "1",
+        "Role": "Ganker,Initiator,Durable",
+        "Rolelevels": "2,1,1",
+        "Team": "Good",
+        "HeroID": "100",
+        "ModelScale": "1.0",
+        "NameAliases": "Tuskarr",
+        "url": "Tusk",
+        "Ability1": "tusk_ice_shards",
+        "Ability2": "tusk_snowball",
+        "Ability3": "tusk_frozen_sigil",
+        "Ability4": "tusk_walrus_punch",
+        "Ability5": "attribute_bonus",
+        "ArmorPhysical": "0.0",
+        "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+        "AttackDamageMin": "27",
+        "AttackDamageMax": "31",
+        "AttackRate": "1.7",
+        "AttackAnimationPoint": "0.4",
+        "AttackAcquisitionRange": "600",
+        "AttackRange": "128",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "AttributeBaseStrength": "22",
+        "AttributeStrengthGain": "2.3",
+        "AttributeBaseAgility": "23",
+        "AttributeAgilityGain": "2.1",
+        "AttributeBaseIntelligence": "18",
+        "AttributeIntelligenceGain": "1.7",
+        "MovementSpeed": "305",
+        "MovementTurnRate": "0.6",
+        "HealthBarOffset": "250",
+        "ParticleFile": "particles/units/heroes/hero_tusk.pcf",
+        "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_tusk.txt",
+        "VoiceFile": "scripts/voscripts/game_sounds_vo_tusk.txt"
     }
 }});

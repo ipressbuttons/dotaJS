@@ -5385,9 +5385,9 @@ define({"DOTAUnits": {
     },
     "npc_dota_roshan": {
         "BaseClass": "npc_dota_roshan",
-        "Model": "modelscreepsmega_greevilmega_greevil.mdl",
+        "Model": "modelscreeps\roshan\roshan.mdl",
         "SoundSet": "Roshan",
-        "ModelScale": "4",
+        "ModelScale": "1",
         "Level": "30",
         "IsAncient": "1",
         "Ability1": "roshan_spell_block",

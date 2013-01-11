@@ -93,5 +93,6 @@ define({"whitelist": {
     "npc_dota_hero_magnataur": "1",
     "npc_dota_hero_centaur": "1",
     "npc_dota_hero_slark": "1",
-    "npc_dota_hero_shredder": "1"
+    "npc_dota_hero_shredder": "1",
+    "npc_dota_hero_medusa": "1"
 }});

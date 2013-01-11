@@ -7578,6 +7578,7 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCastRange": "600 600 600 600",
         "AbilityCooldown": "24.0 24.0 24.0 24.0",
@@ -11899,7 +11900,7 @@ define({"DOTAAbilities": {
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
-                "damage_modifier": "-55 -45 -35 -25"
+                "damage_modifier": "-50 -40 -30 -20"
             },
             "02": {
                 "var_type": "FIELD_INTEGER",
@@ -11911,7 +11912,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "range": "600"
+                "range": "700"
             },
             "05": {
                 "var_type": "FIELD_INTEGER",

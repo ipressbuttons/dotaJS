@@ -1251,8 +1251,8 @@ define({"DOTAHeroes": {
                 "item_clarity": "ITEM_CONSUMABLE | ITEM_SELLABLE",
                 "item_boots": "ITEM_CORE",
                 "item_ring_of_health": "ITEM_CORE",
-                "item_gloves": "ITEM_CORE",
                 "item_lifesteal": "ITEM_CORE",
+                "item_gloves": "ITEM_CORE",
                 "item_boots_of_elves": "ITEM_CORE",
                 "item_power_treads": "ITEM_DERIVED",
                 "item_claymore": "ITEM_CORE",
@@ -13622,6 +13622,7 @@ define({"DOTAHeroes": {
     "npc_dota_hero_medusa": {
         "Model": "models/heroes/medusa/medusa.mdl",
         "SoundSet": "Hero_Medusa",
+        "IdleExpression": "scenes/medusa/medusa_exp_idle_01.vcd",
         "HeroID": "94",
         "Enabled": "1",
         "ForceEnable": "1",
@@ -13662,7 +13663,7 @@ define({"DOTAHeroes": {
         "MovementSpeed": "290",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
-        "HealthBarOffset": "160",
+        "HealthBarOffset": "200",
         "ParticleFile": "particles/units/heroes/hero_medusa.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_medusa.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_medusa.txt",
@@ -13702,6 +13703,18 @@ define({"DOTAHeroes": {
                 "SlotText": "#LoadoutSlot_Armor",
                 "TextureWidth": "256",
                 "TextureHeight": "256"
+            }
+        },
+        "Bot": {
+            "HeroType": "DOTA_BOT_HARD_CARRY",
+            "LaningInfo": {
+                "SoloDesire": "0",
+                "RequiresBabysit": "1",
+                "ProvidesBabysit": "0",
+                "SurvivalRating": "1",
+                "RequiresFarm": "2",
+                "ProvidesSetup": "0",
+                "RequiresSetup": "1"
             }
         }
     },
@@ -13749,7 +13762,7 @@ define({"DOTAHeroes": {
         "MovementSpeed": "300",
         "MovementTurnRate": "0.5",
         "BoundsHullName": "DOTA_HULL_SIZE_HERO",
-        "HealthBarOffset": "150",
+        "HealthBarOffset": "200",
         "ParticleFile": "particles/units/heroes/hero_troll_warlord.pcf",
         "GameSoundsFile": "scripts/game_sounds_heroes/game_sounds_troll_warlord.txt",
         "VoiceFile": "scripts/voscripts/game_sounds_vo_troll_warlord.txt",

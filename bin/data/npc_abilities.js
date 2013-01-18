@@ -12674,7 +12674,7 @@ define({"DOTAAbilities": {
     "tusk_ice_shards": {
         "ID": "5565",
         "AbilityName": "tusk_ice_shards",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
@@ -12693,15 +12693,23 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "shard_count": "5"
+                "shard_count": "7"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
-                "shard_speed": "2500.0"
+                "shard_speed": "900.0"
             },
             "05": {
                 "var_type": "FIELD_FLOAT",
                 "shard_duration": "5.0"
+            },
+            "06": {
+                "var_type": "FIELD_FLOAT",
+                "shard_angle_step": "40.0"
+            },
+            "07": {
+                "var_type": "FIELD_INTEGER",
+                "shard_distance": "200"
             }
         }
     },
@@ -12758,7 +12766,7 @@ define({"DOTAAbilities": {
     "tusk_frozen_sigil": {
         "ID": "5567",
         "AbilityName": "tusk_frozen_sigil",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
         "AbilityCastPoint": "0.1 0.1 0.1 0.1",
         "AbilityCooldown": "50.0 50.0 50.0 50.0",
         "AbilityManaCost": "75 75 75 75",

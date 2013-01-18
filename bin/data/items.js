@@ -1881,7 +1881,6 @@ define({"DOTAAbilities": {
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
         "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
         "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL",
-        "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
         "AbilityCastRange": "800",
         "AbilityCastPoint": "0.0",
         "AbilityCooldown": "20.0",
